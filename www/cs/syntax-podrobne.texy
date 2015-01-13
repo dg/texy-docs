@@ -307,7 +307,7 @@ Aby se tok textu "neznečišťoval" vkládáním URL, je možné všechny adresy
 /--code texy
  [homepage]: http://texy.info/ Texy .(homepage)
  [nette]: http://nette.org
- 
+
 This is [homepage]
 
 Look at "this site":[nette]
