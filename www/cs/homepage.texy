@@ -55,7 +55,7 @@ Vydána verze Texy 2.3
 
 20. 7. 2013 .[date]
 
-- added tests and [Nette Tester](http://github.com/nette/tester)
+- added tests and [Nette Tester](https://github.com/nette/tester)
 
 For the details about the changes you can have a look at the "Github diff":[https://github.com/dg/texy/compare/v2.2...v2.3].
 
