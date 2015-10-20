@@ -1,16 +1,22 @@
 Download
 ********
 
-Texy 2.7, [changelog | https://github.com/dg/texy/releases] ze dne 4. 10. 2015, uvolněno pod licencí GPL. Vyžaduje PHP ve verzi 5.2 nebo novější
+Texy 2.8, [changelog | https://github.com/dg/texy/releases] ze dne 20. 10. 2015, uvolněno pod licencí GPL. Vyžaduje PHP ve verzi 5.4.4 nebo novější
 
 <a href="https://github.com/dg/texy/releases" id="download"><strong>Start Download</strong><br />Latest version</a>
 
 --- .[clear]
 
+Verze pro PHP 5.2 a 5.3
+---------------
+
+Stáhnout [Texy v2.7.1 | https://github.com/dg/texy/releases/tag/v2.7.1]
+
+
 Verze pro PHP 4
 ---------------
 
-Stáhnout [Texy pro PHP 4 | download:php4/texy-2.0-php4.zip] (rev. 201)
+Stáhnout [Texy pro PHP 4 | download:php4/texy-2.0-php4.zip]
 - podpora byla ukončena
 - lze použít i v PHP 5
 - [další informace & pluginy | texy2-php4]
