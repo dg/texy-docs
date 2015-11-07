@@ -1,5 +1,5 @@
-Třída TexyBlockModule
-*********************
+Třída Texy\Modules\BlockModule
+******************************
 
 Má na starosti zpracování bloků `/-- xxx`. Modul vypneme zakázáním syntaxe `blocks`:
 

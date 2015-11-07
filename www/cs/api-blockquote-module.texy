@@ -1,5 +1,5 @@
-Třída TexyBlockQuoteModule
-*********************
+Třída Texy\Modules\BlockQuoteModule
+***********************************
 
 Má na starosti blokové citace. Modul vypneme zakázáním syntaxe `blockquote`:
 

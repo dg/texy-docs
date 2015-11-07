@@ -1,5 +1,5 @@
-Třída TexyHtmlOutputModule
-*********************
+Třída Texy\Modules\HtmlOutputModule
+***********************************
 
 Má na starosti formátování výstupního XHTML / HTML. Formátuje výsledné HTML a zároveň hlídá a koriguje "wellformed" zápis.
 

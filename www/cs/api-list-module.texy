@@ -1,5 +1,5 @@
-Třída TexyListModule
-*********************
+Třída Texy\Modules\ListModule
+*****************************
 
 Má na starosti číslované, nečíslované a definiční seznamy. Modul vypneme zakázáním syntaxe:
 

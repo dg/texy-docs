@@ -1,5 +1,5 @@
-Třída TexyTypographyModule
-*********************
+Třída Texy\Modules\TypographyModule
+***********************************
 
 Má na starosti typografické úpravy výsledného textu. Modul vypneme zakázáním syntaxe `typography`:
 

@@ -1,5 +1,5 @@
-Třída TexyFigureModule
-*********************
+Třída Texy\Modules\FigureModule
+*******************************
 
 Má na starosti obrázky s popiskou. Module vypneme zakázáním syntaxe `figure`:
 
@@ -29,4 +29,4 @@ U plovoucích kontejnerů Texy počítá a nastavuje šířků podle vzorce:
 
 `šířka <div> = šířka obrázku <img> + $widthDelta`
 
-Je tedy nutné zjistit šířku obrázku. K tomu je potřeba korektně nastavit cestu `$texy->imageModule->fileRoot`, viz [TexyImageModule | api-image-module].
+Je tedy nutné zjistit šířku obrázku. K tomu je potřeba korektně nastavit cestu `$texy->imageModule->fileRoot`, viz [Texy\Modules\ImageModule | api-image-module].

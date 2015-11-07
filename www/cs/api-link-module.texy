@@ -1,5 +1,5 @@
-Třída TexyLinkModule
-*********************
+Třída Texy\Modules\LinkModule
+*****************************
 
 Má na starosti definice, reference, odkazy. Modul vypneme zakázáním syntaxe:
 

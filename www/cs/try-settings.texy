@@ -4,7 +4,7 @@ Konfigurace dema
 Toto nastavení se používá v [demu | /cs/try]:
 
 /--code php
-$texy = new Texy;
+$texy = new Texy\Texy;
 
 $texy->imageModule->root = '/images/';
 $texy->imageModule->linkedRoot = '/images/';
@@ -20,12 +20,12 @@ Handler pro zvýrazňování syntaxe používá knihovnu [FSHL | http://code.goo
 /**
  * User handler for code block
  *
- * @param TexyHandlerInvocation  handler invocation
+ * @param Texy\HandlerInvocation  handler invocation
  * @param string  block type
  * @param string  text to highlight
  * @param string  language
- * @param TexyModifier modifier
- * @return TexyHtml
+ * @param Texy\Modifier modifier
+ * @return Texy\HtmlElement
  */
 function blockHandler($invocation, $blocktype, $content, $lang, $modifier)
 {
@@ -44,11 +44,11 @@ function blockHandler($invocation, $blocktype, $content, $lang, $modifier)
 
     $texy = $invocation->getTexy();
 
-    $content = Texy::outdent($content);
+    $content = Texy\Helpers::outdent($content);
     $content = $parser->highlightString($lang, $content);
-    $content = $texy->protect($content, Texy::CONTENT_BLOCK);
+    $content = $texy->protect($content, $texy::CONTENT_BLOCK);
 
-    $elPre = TexyHtml::el('pre');
+    $elPre = Texy\HtmlElement::el('pre');
     if ($modifier) $modifier->decorate($texy, $elPre);
     $elPre->attrs['class'] = strtolower($lang);
 
@@ -65,8 +65,8 @@ Po dokončení konverze se navíc v textu zamění některé znaky za entity, ab
 $html = $texy->process($text);
 
 $html = str_replace(
-    array("\xc2\xa0", "\xc2\xad", "\xe2\x80\x93", "\xe2\x80\x94"),
-    array('&nbsp;', '&shy;', '&ndash;', '&mdash;'),
+    ["\xc2\xa0", "\xc2\xad", "\xe2\x80\x93", "\xe2\x80\x94"],
+    ['&nbsp;', '&shy;', '&ndash;', '&mdash;'],
     $html
 );
 \--

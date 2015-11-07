@@ -10,24 +10,24 @@ V případě dotazů se obracejte přímo do [fóra | http://forum.texy.info].
 --> [Základní dovednosti | api-zaklady]
 
 --> Jednotlivé moduly: .[#moduly]
-- [Texy | api-texy] - jádro Texy
-- [TexyBlockModule | api-block-module] - zpracování bloků `/-- xxx`
-- [TexyBlockQuoteModule | api-blockquote-module] - blokové citace
-- [TexyEmoticonModule | api-emoticon-module] - nahrazování smajlíků za obrázky
-- [TexyFigureModule | api-figure-module] - obrázky s popiskou
-- [TexyHeadingModule | api-heading-module] - nadpisy, titulky
-- [TexyHorizLineModule | api-horizline-module] - horizontální čáry
-- [TexyHtmlModule | api-html-module] - HTML značky a komentáře na vstupu
-- [TexyHtmlOutputModule | api-htmloutput-module] - formátování výstupního HTML
-- [TexyImageModule | api-image-module] - obrázky
-- [TexyLinkModule | api-link-module] - odkazy a reference
-- [TexyListModule | api-list-module] - číslované, nečíslované a definiční seznamy
-- [TexyLongWordsModule | api-longwords-module] - rozdělení dlouhých slov
-- [TexyParagraphModule | api-paragraph-module] - jednotlivé odstavce textu
-- [TexyPhraseModule | api-phrase-module] - fráze, tedy úseky textu (tučný text, odkaz, ...)
-- [TexyScriptModule | api-script-module] - volání uživatelských funkcí
-- [TexyTableModule | api-table-module] - tabulky
-- [TexyTypographyModule | api-typography-module] - typografické úpravy výsledného textu
+- [Texy\Texy | api-texy] - jádro Texy
+- [Texy\Modules\BlockModule | api-block-module] - zpracování bloků `/-- xxx`
+- [Texy\Modules\BlockQuoteModule | api-blockquote-module] - blokové citace
+- [Texy\Modules\EmoticonModule | api-emoticon-module] - nahrazování smajlíků za obrázky
+- [Texy\Modules\FigureModule | api-figure-module] - obrázky s popiskou
+- [Texy\Modules\HeadingModule | api-heading-module] - nadpisy, titulky
+- [Texy\Modules\HorizLineModule | api-horizline-module] - horizontální čáry
+- [Texy\Modules\HtmlModule | api-html-module] - HTML značky a komentáře na vstupu
+- [Texy\Modules\HtmlOutputModule | api-htmloutput-module] - formátování výstupního HTML
+- [Texy\Modules\ImageModule | api-image-module] - obrázky
+- [Texy\Modules\LinkModule | api-link-module] - odkazy a reference
+- [Texy\Modules\ListModule | api-list-module] - číslované, nečíslované a definiční seznamy
+- [Texy\Modules\LongWordsModule | api-longwords-module] - rozdělení dlouhých slov
+- [Texy\Modules\ParagraphModule | api-paragraph-module] - jednotlivé odstavce textu
+- [Texy\Modules\PhraseModule | api-phrase-module] - fráze, tedy úseky textu (tučný text, odkaz, ...)
+- [Texy\Modules\ScriptModule | api-script-module] - volání uživatelských funkcí
+- [Texy\Modules\TableModule | api-table-module] - tabulky
+- [Texy\Modules\TypographyModule | api-typography-module] - typografické úpravy výsledného textu
 
 
 Ostatní informace

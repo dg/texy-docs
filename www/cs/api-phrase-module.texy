@@ -1,5 +1,5 @@
-Třída TexyPhraseModule
-*********************
+Třída Texy\Modules\PhraseModule
+*******************************
 
 Má na starosti tzv. fráze, tedy úseky textu (tučný text, odkaz, ...). Můžeme vypínat a zapínat jednotlivé syntaxe:
 

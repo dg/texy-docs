@@ -1,5 +1,5 @@
-Třída TexyHorizLineModule
-*********************
+Třída Texy\Modules\HorizLineModule
+**********************************
 
 Má na starosti horizontální čáry. Modul vypneme zakázáním syntaxe `horizline`:
 

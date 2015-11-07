@@ -1,5 +1,5 @@
-Třída TexyScriptModule
-*********************
+Třída Texy\Modules\ScriptModule
+*******************************
 
 Má na starosti volání uživatelských funkcí a vkládání externích dat. Modul vypneme zakázáním syntaxe `script`:
 

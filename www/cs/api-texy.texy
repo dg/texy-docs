@@ -1,7 +1,5 @@
-Třída Texy
-**********
-
-Poznámka: PHP 4 nezná konstanty tříd. Proto místo `Texy::ALL`, `Texy::NONE` používejte náhradní konstanty `TEXY_ALL`, `TEXY_NONE`.
+Třída Texy\Texy
+***************
 
 |----------------
 | proměnná | typ | výchozí | popis |
@@ -52,11 +50,11 @@ Příklady
 Povolíme pouze HTML elementy `<strong>, <div>, <a>` a některé jejich atributy:
 
 /--code php
-$texy->allowedTags = array(
+$texy->allowedTags = [
     'strong' => Texy::NONE,  // <strong> nesmí mít žádné attributy
     'div' => Texy::ALL,  // <div> může mít jakékoliv atributy
     'a' => array('href', 'lang', 'target'), // <a> může mít jen tyto atributy
-);
+];
 \--
 
 Všechny HTML značky zakážeme:
@@ -68,13 +66,13 @@ $texy->allowedTags = Texy::NONE;
 Povolíme pouze CSS třídy `class1, class2` a CSS identifikátory `id1, id2`
 
 /--code php
-$texy->allowedClasses = array('class1', 'class2', '#id1', '#id2');
+$texy->allowedClasses = ['class1', 'class2', '#id1', '#id2'];
 \--
 
 Povolíme pouze CSS vlastnosti `font-size, color, width`
 
 /--code php
-$texy->allowedStyles = array('font-size', 'color', 'width');
+$texy->allowedStyles = ['font-size', 'color', 'width'];
 \--
 
 Důležité je vždy nastavit správné kódování vstupního a výstupního text

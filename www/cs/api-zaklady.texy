@@ -1,7 +1,7 @@
 Základní dovednosti
 =======
 
-Jak přeformátovat text do HTML? Stačí do kódu začlenit knihovnu texy.php (nebo texy.compact.php) a vytvořit objekt `$texy = new Texy;`.
+Jak přeformátovat text do HTML? Stačí do kódu začlenit knihovnu texy.php (nebo texy.compact.php) a vytvořit objekt `$texy = new Texy\Texy;`.
 
 Celý převod obstará metoda `$html = $texy->process($text)`, kde proměnná `$text` obsahuje vstupní text a vrací se zformátovaný HTML výstup.
 
@@ -11,10 +11,9 @@ Celý převod obstará metoda `$html = $texy->process($text)`, kde proměnná `$
 require_once 'texy.php';
 
 // vytvoříme objekt
-$texy = new Texy();
+$texy = new Texy\Texy;
 
 // můžeme jej nakonfigurovat
-$texy->encoding = 'windows-1250';
 $texy->imageModule->root  = 'images/';
 
 // a zpracujeme vstupní $text

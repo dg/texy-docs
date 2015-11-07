@@ -1,5 +1,5 @@
-Třída TexyLongWordsModule
-*********************
+Třída Texy\Modules\LongWordsModule
+**********************************
 
 Má na starosti rozdělení dlouhých slov. Modul vypneme zakázáním syntaxe `longwords`:
 

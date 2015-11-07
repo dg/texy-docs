@@ -1,5 +1,5 @@
 Programátorský manuál pro Texy 1.x
-*****************************
+**********************************
 
 
 Texy je napsané v objektovém PHP. Funguje ve verzích 4 i novější 5 (minimální požadovaná verze je 4.3.3).
@@ -53,7 +53,7 @@ $texy->allowedClasses:
   - *TRUE* - jsou povoleny veškeré třídy a ID (výchozí hodnota)
   - *FALSE* - všechny třídy a ID zakázané
   - *array* - povoleny jsou třídy a ID specifikované v poli (ID začínají prefixem ``#``)
-  - příklad: `array('class1', 'class2', '#id1', '#id2')`
+  - příklad: `['class1', 'class2', '#id1', '#id2']`
   - metoda `$texy->safeMode()` nastaví proměnnou na FALSE
   - metoda `$texy->trustMode()` nastaví proměnnou na TRUE
 
@@ -62,7 +62,7 @@ $texy->allowedStyles:
   - *`TRUE`* - jsou povoleny veškeré vložené CSS styly (výchozí hodnota)
   - *`FALSE`* - vkládané CSS je zakázáno
   - *`array`* - povoleny jsou CSS vlastnosti specifikované v poli
-  - příklad: `array('font-size', 'color', 'width')`
+  - příklad: `['font-size', 'color', 'width']`
   - metoda `$texy->safeMode()` nastaví proměnnou na FALSE
   - metoda `$texy->trustMode()` nastaví proměnnou na TRUE
 
@@ -71,9 +71,9 @@ $texy->allowedTags:
   - *`TRUE`* - jsou povoleny veškeré značky a attributy (tedy i nevalidní)
   - *`FALSE`* - všechny značky zakázané
   - *`array`* - povoleny jsou značky specifikované **jako klíče** v poli, na atributy není kladeno žádné omezení
-  - příklad: `array( 'strong' => TRUE, 'a' => TRUE );`
+  - příklad: `['strong' => TRUE, 'a' => TRUE];`
   - *`array`* - povoleny jsou jen uvedené atributy
-  - příklad: `array( 'a' => array('href', 'title') );`
+  - příklad: `['a' => ['href', 'title']];`
   - *výchozí hodnotou* je pole všech validních značek (viz trustMode)
   - metoda `$texy->safeMode()` nastaví proměnnou na pole tzv. *bezpečných značek*
   - metoda `$texy->trustMode()` nastaví proměnnou na pole validních značek (mimo html, head, body, base, meta, link a title)
@@ -318,11 +318,11 @@ Ve výsledném HTML provádí typografické úpravy
 
 $texy->quickCorrectModule->doubleQuotes:
   - entity pro dvojité uvozovky (pro použití v jiném jazyku)
-  - výchozí pro češtinu je `array('&bdquo;', '&ldquo;');`
+  - výchozí pro češtinu je `['&bdquo;', '&ldquo;'];`
 
 $texy->quickCorrectModule->singleQuotes:
   - entity pro jednoduché uvozovky (pro použití v jiném jazyku)
-  - výchozí pro češtinu je `array('&sbquo;', '&lsquo;');`
+  - výchozí pro češtinu je `['&sbquo;', '&lsquo;'];`
 
 $texy->quickCorrectModule->dash:
   - entita pomlčky (pro použití v jiném jazyku)

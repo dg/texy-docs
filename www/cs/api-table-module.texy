@@ -1,5 +1,5 @@
-Třída TexyTableModule
-*********************
+Třída Texy\Modules\TableModule
+******************************
 
 Má na starosti tabulky. Modul vypneme zakázáním syntaxe `table`:
 

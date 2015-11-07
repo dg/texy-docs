@@ -1,5 +1,5 @@
-Třída TexyHtmlModule
-*********************
+Třída Texy\Modules\HtmlModule
+*****************************
 
 Má na starosti HTML značky a komentáře na vstupu. Modul vypneme zakázáním syntaxe:
 
