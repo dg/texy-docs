@@ -1,7 +1,7 @@
 Texy Documentation
 ==================
 
-This documentation is rendered at http://texy.info and is licensed under the [Creative
+This documentation is rendered at https://texy.info and is licensed under the [Creative
 Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/legalcode).
 
 By contributing any content to the documentation you are agreeing to license it under

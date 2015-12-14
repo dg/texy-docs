@@ -7,7 +7,7 @@ Limitations: This interface is experimental and under development. I am testing 
 How to call
 ------------
 
-Sent a [XML-RPC | http://www.xmlrpc.com/spec] request to: http://xmlrpc.texy.info/
+Sent a [XML-RPC | http://www.xmlrpc.com/spec] request to: https://xmlrpc.texy.info/
 
 There are these available methods:
 

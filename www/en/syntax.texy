@@ -275,7 +275,7 @@ Links
 ======
 
 /--code texy
-Look at homepage:[http://texy.info].
+Look at homepage:[https://texy.info].
 
 Do you know "Nette":http://nette.org?
 
@@ -284,7 +284,7 @@ Do you know "Nette":http://nette.org?
 \--
 
 /-- texysource .[html]
-Look at homepage:[http://texy.info].
+Look at homepage:[https://texy.info].
 
 Do you know "Nette":http://nette.org?
 
@@ -298,7 +298,7 @@ References
 ---------
 
 /--code texy
- [homepage]: http://texy.info/ Texy .(homepage)
+ [homepage]: https://texy.info/ Texy .(homepage)
  [nette]: http://nette.org
 
  This is [homepage]
@@ -306,7 +306,7 @@ References
  Look at [this site | nette]
 \--
 
-[homepage]: http://texy.info/ Texy .(homepage)
+[homepage]: https://texy.info/ Texy .(homepage)
 [la trine]: http://nette.org
 
 /-- texysource .[html]
@@ -803,7 +803,7 @@ jednoslovnc: <acronym title="North Atlantic Treaty Organisation">NATO</acronym>
 víceslovnc: <acronym title="a další">et al.</abbr>
 \--
 
-*Poznámka: mezi ABBR a ACRONYM se [nerozlišuje | http://forum.texy.info/viewtopic.php?id=11].*
+*Poznámka: mezi ABBR a ACRONYM se [nerozlišuje | https://forum.texy.info/viewtopic.php?id=11].*
 
 
 Klikatelnc URI
@@ -839,7 +839,7 @@ nejneobhospoda&shy;továvateln>jší&shy;mi</p
 
 *Poznámka: limit dclky slova je volitelný*
 
-*Poznámka: současnc prohlížeče na jádru Gecko (Mozilla, Firefox) jsou k naznačencmu d>lení slepí. Doufám, že vývojáti tento nedostatek brzy odstraní. Nebo zkuste [tohle | http://forum.texy.info/viewtopic.php?id=36]*
+*Poznámka: současnc prohlížeče na jádru Gecko (Mozilla, Firefox) jsou k naznačencmu d>lení slepí. Doufám, že vývojáti tento nedostatek brzy odstraní. Nebo zkuste [tohle | https://forum.texy.info/viewtopic.php?id=36]*
 
 
 

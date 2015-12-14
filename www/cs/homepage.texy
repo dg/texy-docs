@@ -43,7 +43,7 @@ Vydána verze Texy 2.4
 
 10. 2. 2014 .[date]
 
-- added new syntaxes for links: `[text | http://texy.info]` and `[text](http://texy.info)`
+- added new syntaxes for links: `[text | https://texy.info]` and `[text](https://texy.info)`
 - obsolete hover effects for images can be disabled via `$texy->allowed['image/hover'] = FALSE`
 - minimal required PHP version is now 5.2.0
 

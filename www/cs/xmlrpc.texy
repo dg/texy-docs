@@ -8,7 +8,7 @@ Upozornění: tato služba je experimentální a dosud ve vývoji. Feedback je v
 Jak službu volat
 -----------
 
-Požadavek ve formátu [XML-RPC | http://www.xmlrpc.com/spec] pošlete na adresu: `http://xmlrpc.texy.info/`
+Požadavek ve formátu [XML-RPC | http://www.xmlrpc.com/spec] pošlete na adresu: `https://xmlrpc.texy.info/`
 
 K dispozici jsou tyto metody:
 
