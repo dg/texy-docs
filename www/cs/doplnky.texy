@@ -6,11 +6,11 @@ Texy pluginy pro CMS((Content Management System, redakční systém)) a framewor
 
 (vyžaduje PHP 5.1 nebo vyšší, pluginy pro starší verze najdete [zde | texy2-php4])
 
-- [b2evolution plugin | download:texy2-plugin-b2evo.zip] (pro 1.8 - 2.0) ([informace | https://forum.texy.info/cs/viewforum.php?id=11])
-- [WordPress plugin | download:texy2-plugin-wordpress.zip]  (pro 1.2 - 2.5) ([informace | https://forum.texy.info/cs/viewforum.php?id=10])
-- [BLOG:CMS plugin | download:texy2-plugin-blogcms.zip] ([informace | https://forum.texy.info/cs/viewforum.php?id=7], [upozornění | https://forum.texy.info/cs/viewtopic.php?id=66])
-- [Nucleus plugin | download:texy2-plugin-nucleus.zip] (pro 3.2) ([informace | https://forum.texy.info/cs/viewforum.php?id=7], [upozornění | https://forum.texy.info/cs/viewtopic.php?id=66])
-- [lucidCMS plugin | download:texy2-plugin-lucid.zip] ([informace | https://forum.texy.info/cs/viewforum.php?id=11] )
+- [b2evolution plugin | https://files.texy.info/texy2-plugin-b2evo.zip] (pro 1.8 - 2.0) ([informace | https://forum.texy.info/cs/viewforum.php?id=11])
+- [WordPress plugin | https://files.texy.info/texy2-plugin-wordpress.zip]  (pro 1.2 - 2.5) ([informace | https://forum.texy.info/cs/viewforum.php?id=10])
+- [BLOG:CMS plugin | https://files.texy.info/texy2-plugin-blogcms.zip] ([informace | https://forum.texy.info/cs/viewforum.php?id=7], [upozornění | https://forum.texy.info/cs/viewtopic.php?id=66])
+- [Nucleus plugin | https://files.texy.info/texy2-plugin-nucleus.zip] (pro 3.2) ([informace | https://forum.texy.info/cs/viewforum.php?id=7], [upozornění | https://forum.texy.info/cs/viewtopic.php?id=66])
+- [lucidCMS plugin | https://files.texy.info/texy2-plugin-lucid.zip] ([informace | https://forum.texy.info/cs/viewforum.php?id=11] )
 - [Drupal plugin | http://drupal.org/project/texy] (vytvořil Havran)
 - [Symfony plugin sfTexyPlugin | http://trac.symfony-project.com/trac/wiki/sfTexyPlugin] (vytvořil Miloslav Kmet)
 - [Joomla plugin | http://www.foceni.org/download/joomla/texy-plugin-2.html] (vytvořil Jiří Žán)
@@ -53,8 +53,8 @@ Převaděče
 Příklady, tutoriály
 ------------------
 
-- příklad spojení [Texy2 & FSHL | download:texy2-example-FSHL.zip]
-- příklad spojení [Texy2 & GeSHi | download:texy2-example-GeSHi.zip]
+- příklad spojení [Texy2 & FSHL | https://files.texy.info/texy2-example-FSHL.zip]
+- příklad spojení [Texy2 & GeSHi | https://files.texy.info/texy2-example-GeSHi.zip]
 
 
 
