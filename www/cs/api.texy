@@ -3,8 +3,6 @@ Programátorský manuál
 
 Texy je napsané v objektovém PHP. Minimální požadovaná verze je 4.3.3 (ve verzi pro PHP 4) a 5.1 (ve verzi pro PHP 5).
 
-V případě dotazů se obracejte přímo do [fóra | https://forum.texy.info].
-
 --> [API dokumentace | https://api.texy.info]
 
 --> [Základní dovednosti | api-zaklady]
@@ -28,9 +26,3 @@ V případě dotazů se obracejte přímo do [fóra | https://forum.texy.info].
 - [Texy\Modules\ScriptModule | api-script-module] - volání uživatelských funkcí
 - [Texy\Modules\TableModule | api-table-module] - tabulky
 - [Texy\Modules\TypographyModule | api-typography-module] - typografické úpravy výsledného textu
-
-
-Ostatní informace
------------------
-
-- [Manuál pro starší verzi Texy 1.x | api-texy1]

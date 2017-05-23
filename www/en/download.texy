@@ -1,51 +1,19 @@
 Download
 ********
 
-Texy 2.8, [changelog | https://github.com/dg/texy/releases], released under the terms of the GPL license. Requires PHP 5.4.4 or higher.
+Texy 2.9, [changelog | https://github.com/dg/texy/releases], released under the terms of the BSD and GPL license. Requires PHP 5.4.4 or higher.
 
 <a href="https://github.com/dg/texy/releases" id="download"><strong>Start Download</strong><br />Latest version</a>
 
 --- .[clear]
 
 
+Others
+------
 
-Plugins for CMS with Texy
------------------------
-
-- [b2evolution plugin | https://files.texy.info/texy2-plugin-b2evo.zip] (for 1.8 - 2.0)
-- [WordPress plugin | https://files.texy.info/texy2-plugin-wordpress.zip]  (for 1.2 - 2.1)
-- [BLOG:CMS plugin | https://files.texy.info/texy2-plugin-blogcms.zip]
-- [Nucleus plugin | https://files.texy.info/texy2-plugin-nucleus.zip] (for 3.2)
-- [lucidCMS plugin | https://files.texy.info/texy2-plugin-lucid.zip]
-- [Drupal plugin | http://drupal.org/project/texy] (from Havrana)
-
-
-Texy on others platforms
----------------
-
-- Ruby: [Texier | http://texier.rubyforge.org/]
-- .NET: [Texy.net | http://www.codeplex.com/texynet/]
-- .NET: [Texy! with Phalanger | http://tomasp.net/blog/aspnettexy.aspx]
-
-
-Converters, editors, examples
------------------
-
-- [Amy, Web 2.0 Collaborative Editor | http://www.april-child.com/blog/2007/04/24/introducing-amy/] with syntax highlighting
-- [Texyla | http://texyla.janmarek.net/] AJAX editor for Texy
-- [html2texy! | http://www.webkitchen.cz/lab/html2texy/] backward convert to HTML
-- [Texy! -> LaTeX | http://jaybee.frih.net/software/prevodnik-texy!---latex]
-- example [Texy2 & FSHL | https://files.texy.info/texy2-example-FSHL.zip]
-- example [Texy2 & GeSHi | https://files.texy.info/texy2-example-GeSHi.zip]
-
-
-
-Logo Texy
-=========
-
-- Logo *Texy!* in [format EPS | https://files.texy.info/logo.eps]
-- Logo *Texy2* in [format EPS | https://files.texy.info/logo-texy2.eps]
-
+- [Texy Editor | https://editor.texy.info]
+- [Texy 2 Markdown Editor | https://markdown.texy.info]
+- [GitHub | https://github.com/dg/texy]
 
 
 {{lang: cs/download}}

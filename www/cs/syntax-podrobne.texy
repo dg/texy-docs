@@ -974,14 +974,3 @@ Takže výsledná tabulka vypadá takto:
 .(people)
 | .{color: green} first col | second col      .>| third col | .{font-style:italic}
 | Adam                      | Eva .{color: blue}| Franta    |
-
-
-
-Kompatibilita
-=============
-
-Syntax Texy není plně kompatibilní s žádným jiným systémem. Některé pravidla jsou stejná, jiná zase odlišná. Texy se o kompatibilitu nesnaží, tím by bylo nuceno kromě výhod ostatních systémů distribuovat i jejich nelogičnosti.
-
-Setkal jsem se s názorem že Texy má podobnou syntaxi jako Textile. Musím varovat - tato podobnost by Vás mohla zmást. Je totiž jen zdánlivá - například oba systémy využívají pro zápis modifikátorů závorky (kulaté, složené a hranaté) a znaky < > pro zarovnání (co jiného totiž použít, že?). Jejich význam je však v každém systému diametrálně odlišný.
-
-Syntax je zvolena tak, aby byla maximálně intuitivní a přirozená. Samozřejmě někomu jinému se může zdát nepochopitelná.

@@ -9,7 +9,7 @@ Texy supports hyphenation of long words (which reflects language rules), clickab
 
 Texy is being developed by David Grudl since 2004. It is written in PHP or can be used via XML/RPC service.
 
-Texy is licenced by GNU General Public License. Plugins for several content-management systems are available.
+Texy is licenced by BSD and GNU General Public License. Plugins for several content-management systems are available.
 
 
 

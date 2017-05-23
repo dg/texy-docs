@@ -1,7 +1,7 @@
 Download
 ********
 
-Texy 2.8, [changelog | https://github.com/dg/texy/releases] ze dne 20. 10. 2015, uvolněno pod licencí GPL. Vyžaduje PHP ve verzi 5.4.4 nebo novější
+Texy 2.9.1, [changelog | https://github.com/dg/texy/releases] ze dne 8. 4. 2017, uvolněno pod licencí BSD a GPL. Vyžaduje PHP ve verzi 5.4.4 nebo novější
 
 <a href="https://github.com/dg/texy/releases" id="download"><strong>Start Download</strong><br />Latest version</a>
 
@@ -13,36 +13,12 @@ Verze pro PHP 5.2 a 5.3
 Stáhnout [Texy v2.7.1 | https://github.com/dg/texy/releases/tag/v2.7.1]
 
 
-Verze pro PHP 4
----------------
+Další
+-----
 
-Stáhnout [Texy pro PHP 4 | https://files.texy.info/php4/texy-2.0-php4.zip]
-- podpora byla ukončena
-- lze použít i v PHP 5
-- [další informace & pluginy | texy2-php4]
-
-
-
-Ostatní
--------
-- [Texy pluginy pro CMS a frameworky|doplnky#toc-texy-pluginy-pro-cms-a-frameworky]
-- [Nástroje, pluginy, doplňky|doplnky]
-- [Ikonky] pro vaše stránky
-- [Logo Texy! | https://files.texy.info/logo.eps] (formát EPS)
-- [Logo Texy2 | https://files.texy.info/logo-texy2.eps] (formát EPS)
-
-
-Přístup přes Git
-----------------
-
-Nejnovější vývojovou verzi můžete získat z Git repositáře. Nejjednodušším způsobem je procházet úložiště pomocí [webového prohlížeče | https://github.com/dg/texy]. Zde si můžete také aktuální verzi stáhnout jako archív ZIP. Nebo můžete nainstalovat Git klienta a získat klon repositáře příkazem:
-
-/--code
-git clone git://github.com/dg/texy.git
-\--
-
-You can take a look at the "[* feed-icon.gif *] RSS feed":/feed for the changes log of HG and this page.
-
+- [Texy Editor | https://editor.texy.info]
+- [Texy 2 Markdown Editor | https://markdown.texy.info]
+- [GitHub | https://github.com/dg/texy]
 
 
 {{lang: en/download}}

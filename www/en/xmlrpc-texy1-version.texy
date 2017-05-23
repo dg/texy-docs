@@ -1,7 +1,0 @@
-XML-RPC method texy1.version
-***************************
-
-Returns used Texy version (as string). There are no parameters.
-
-
-{{lang: cs/xmlrpc-texy1.version}}
