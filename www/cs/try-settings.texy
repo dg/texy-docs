@@ -8,7 +8,7 @@ $texy = new Texy\Texy;
 
 $texy->imageModule->root = '/images/';
 $texy->imageModule->linkedRoot = '/images/';
-$texy->headingModule->generateID = TRUE;
+$texy->headingModule->generateID = true;
 
 // syntax highlighting
 $texy->addHandler('block', 'blockHandler');

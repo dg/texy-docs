@@ -21,6 +21,6 @@ $html = $texy->process($text);
 
 \--
 
-Pokud potřebujete formátovat jednořádkový text (tedy bez blokových elementů), použijte `$html = $texy->process($text, TRUE)`.
+Pokud potřebujete formátovat jednořádkový text (tedy bez blokových elementů), použijte `$html = $texy->process($text, true)`.
 
 V ukázce vidíte, jak je možné objekt `$texy` konfigurovat. Protože parametrů je hodně, jsou rozčleněny do logických celků označovaných jako moduly. Instance každého modulu je uložena v atributu `$texy->blockModule`, `$texy->emoticonModule` atd. (viz [jednotlivé moduly | api#moduly]).

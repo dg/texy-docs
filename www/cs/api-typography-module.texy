@@ -4,7 +4,7 @@ Třída Texy\Modules\TypographyModule
 Má na starosti typografické úpravy výsledného textu. Modul vypneme zakázáním syntaxe `typography`:
 
 /--code php
-$texy->allowed['typography'] = FALSE;
+$texy->allowed['typography'] = false;
 \--
 
 Konfigurace

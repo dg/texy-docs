@@ -4,7 +4,7 @@ Třída Texy\Modules\EmoticonModule
 Má na starosti nahrazování smajlíků za obrázky. Ve výchozím nastavení je modul vypnutý, zapneme jej povolením syntaxe `emoticon`:
 
 /--code php
-$texy->allowed['emoticon'] = TRUE;
+$texy->allowed['emoticon'] = true;
 \--
 
 Konfigurace
@@ -14,7 +14,7 @@ Konfigurace
 | proměnná | typ | výchozí | popis |
 |----------------
 | $icons     | array   |      | tabulka všech smajlíků a odpovídajících obrázků
-| $class     | string  | NULL | CSS třída
+| $class     | string  | null | CSS třída
 | $root      | string  |      | kořenový adresář obrázků na webu
 | $fileRoot  | string  |      | kořenový adresář obrázků na disku
 

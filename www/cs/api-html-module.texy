@@ -5,10 +5,10 @@ Má na starosti HTML značky a komentáře na vstupu. Modul vypneme zakázáním
 
 /--code php
 // vypneme HTML značky
-$texy->allowed['html/tag'] = FALSE;
+$texy->allowed['html/tag'] = false;
 
 // vypneme HTML komentáře
-$texy->allowed['html/comment'] = FALSE;
+$texy->allowed['html/comment'] = false;
 \--
 
 Konfigurace
@@ -17,4 +17,4 @@ Konfigurace
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| $passComment  | boolean | TRUE | zobrazit HTML komentáře na výstupu?
+| $passComment  | boolean | true | zobrazit HTML komentáře na výstupu?

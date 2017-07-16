@@ -4,7 +4,7 @@ Třída Texy\Modules\TableModule
 Má na starosti tabulky. Modul vypneme zakázáním syntaxe `table`:
 
 /--code php
-$texy->allowed['table'] = FALSE;
+$texy->allowed['table'] = false;
 \--
 
 Konfigurace
@@ -13,5 +13,5 @@ Konfigurace
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| $oddClass  | string | NULL | CSS třída přiřazená lichým řádkům tabulky
-| $evenClass | string | NULL | CSS třída přiřazená sudým řádkům tabulky
+| $oddClass  | string | null | CSS třída přiřazená lichým řádkům tabulky
+| $evenClass | string | null | CSS třída přiřazená sudým řádkům tabulky

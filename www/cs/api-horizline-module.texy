@@ -4,5 +4,5 @@ Třída Texy\Modules\HorizLineModule
 Má na starosti horizontální čáry. Modul vypneme zakázáním syntaxe `horizline`:
 
 /--code php
-$texy->allowed['horizline'] = FALSE;
+$texy->allowed['horizline'] = false;
 \--

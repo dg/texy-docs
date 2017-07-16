@@ -4,7 +4,7 @@ Třída Texy\Modules\LongWordsModule
 Má na starosti rozdělení dlouhých slov. Modul vypneme zakázáním syntaxe `longwords`:
 
 /--code php
-$texy->allowed['longwords'] = FALSE;
+$texy->allowed['longwords'] = false;
 \--
 
 Konfigurace

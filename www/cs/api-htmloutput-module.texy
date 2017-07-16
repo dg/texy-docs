@@ -9,8 +9,8 @@ Konfigurace
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| $indent     | boolean | TRUE | formátovat výstup do úhledné podoby?
+| $indent     | boolean | true | formátovat výstup do úhledné podoby?
 | $baseIndent | int     | 0 | minimální odsazení každého řádku
 | $lineWrap   | int     | 80 | maximální šířka řádku
 
-Volitelné koncové značky se odstraňují pouze v režimu HTML. Zalamování řádků lze vypnout nastavením `$texy->htmlOutputModule->lineWrap = FALSE`.
+Volitelné koncové značky se odstraňují pouze v režimu HTML. Zalamování řádků lze vypnout nastavením `$texy->htmlOutputModule->lineWrap = false`.

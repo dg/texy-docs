@@ -5,10 +5,10 @@ Má na starosti nadpisy a titulky. Module (de)aktivujeme zakázáním syntaxe:
 
 /--code php
 // podtržené titulky
-$texy->allowed['heading/underlined'] = FALSE;
+$texy->allowed['heading/underlined'] = false;
 
 // ohraničené titulky
-$texy->allowed['heading/surrounded'] = FALSE;
+$texy->allowed['heading/surrounded'] = false;
 \--
 
 Konfigurace
@@ -17,12 +17,12 @@ Konfigurace
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| $title      | string | NULL | nejvyšší titulek
+| $title      | string | null | nejvyšší titulek
 | $TOC        | array  |  | zde se vygeneruje obsah
-| $generateID | boolean| FALSE | generovat titulkům ID?
+| $generateID | boolean| false | generovat titulkům ID?
 | $idPrefix   | string | `'toc-'` | prefix pro generované ID
 | $top        | int    | 1 | strop, úroveň nejvyššího titulku
-| $moreMeansHigher | boolean | TRUE | více znaků znamená vyšší titulek
+| $moreMeansHigher | boolean | true | více znaků znamená vyšší titulek
 | $balancing  | int    | *dynamic* | způsob vážení titulků
 | $levels     | array  |  | tabulka vážení titulků
 

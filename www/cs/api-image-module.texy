@@ -5,10 +5,10 @@ Má na starosti obrázky. Tzv. obrázky s popiskou zpracovává [Texy\Modules\Fi
 
 /--code php
 // zákaz obrázků
-$texy->allowed['image'] = FALSE;
+$texy->allowed['image'] = false;
 
 // zákaz referencí
-$texy->allowed['image/definition'] = FALSE;
+$texy->allowed['image/definition'] = false;
 \--
 
 Konfigurace
@@ -20,8 +20,8 @@ Konfigurace
 | $root       | string  | `'images/'` | kořenový adresář obrázků na webu
 | $linkedRoot | string  | `'images/'` | kořenový adresář obrázků v pozici odkazu
 | $fileRoot   | string  |  | kořenový adresář obrázků na disku
-| $leftClass  | string | NULL | třída obrázku plovoucího vlevo
-| $rightClass | string | NULL | třída obrázku plovoucího vpravo
+| $leftClass  | string | null | třída obrázku plovoucího vlevo
+| $rightClass | string | null | třída obrázku plovoucího vpravo
 | $defaultAlt | string | `''` | výchozí hodnota atributu `alt`
 | $onLoad     | string | *fikaný skript* | `onload` handler
 

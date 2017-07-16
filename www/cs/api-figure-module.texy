@@ -4,7 +4,7 @@ Třída Texy\Modules\FigureModule
 Má na starosti obrázky s popiskou. Module vypneme zakázáním syntaxe `figure`:
 
 /--code php
-$texy->allowed['figure'] = FALSE;
+$texy->allowed['figure'] = false;
 \--
 
 Konfigurace
@@ -14,8 +14,8 @@ Konfigurace
 | proměnná | typ | výchozí | popis |
 |----------------
 | $class      | string | `'figure'` | třída neplovoucího kontejneru `<div>`
-| $leftClass  | string | NULL | třída `<div>` plovoucího vlevo
-| $rightClass | string | NULL | třída `<div>` plovoucího vpravo
+| $leftClass  | string | null | třída `<div>` plovoucího vlevo
+| $rightClass | string | null | třída `<div>` plovoucího vpravo
 | $widthDelta | int    | 10 | offset pro výpočet šířky
 
 

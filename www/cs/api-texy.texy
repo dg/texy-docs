@@ -10,11 +10,11 @@ Třída Texy\Texy
 | `$allowedClasses` | mixed  | Texy::ALL | povolené CSS třídy a identifikátory
 | `$allowedStyles` | mixed   | Texy::ALL | povolené CSS styly
 | `$alignClasses` | array    | *vynulované* | CSS třídy pro zarovnání textu a obrázků
-| `$mergeLines`   | boolean  | TRUE    | spojovat řádky?
+| `$mergeLines`   | boolean  | true    | spojovat řádky?
 | `$tabWidth`     | int      | 8       | šířka tabulátorů kvůli převední na mezery
-| `$obfuscateEmail` | boolean| TRUE    | maskovat emailové adresy před roboty?
-| `$urlSchemeFilters` | array| NULL    |
-| `$styleSheet`   | string   | NULL    | připraveno pro uživatelské použití
+| `$obfuscateEmail` | boolean| true    | maskovat emailové adresy před roboty?
+| `$urlSchemeFilters` | array| null    |
+| `$styleSheet`   | string   | null    | připraveno pro uživatelské použití
 
 
 Proměnné `$allowedTags`, `$allowedClasses` a `$allowedStyles` mohou nabývat hodnot:
@@ -28,7 +28,7 @@ Proměnné `$allowedTags`, `$allowedClasses` a `$allowedStyles` mohou nabývat h
 
 Pole `$alignClasses` definuje CSS třídy pro zarovnání textu a obrázků. Blíže popsáno [ve fóru | https://forum.texy.info/cs/viewtopic.php?id=532].
 
-Texy spojuje řádky následující za sebou do odstavců. Toto chování je možné vypnout nastavením vlastnosti `$texy->mergeLines = FALSE`.
+Texy spojuje řádky následující za sebou do odstavců. Toto chování je možné vypnout nastavením vlastnosti `$texy->mergeLines = false`.
 
 Volba výstupu HTML / XHTML
 -------------

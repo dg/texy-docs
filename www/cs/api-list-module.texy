@@ -5,8 +5,8 @@ Má na starosti číslované, nečíslované a definiční seznamy. Modul vypnem
 
 /--code php
 // číslované a nečíslované seznamy
-$texy->allowed['list'] = FALSE;
+$texy->allowed['list'] = false;
 
 // definiční listy
-$texy->allowed['list/definition'] = FALSE;
+$texy->allowed['list/definition'] = false;
 \--
