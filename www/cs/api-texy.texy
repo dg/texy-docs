@@ -31,7 +31,7 @@ Pole `$alignClasses` definuje CSS třídy pro zarovnání textu a obrázků. Bl�
 Texy spojuje řádky následující za sebou do odstavců. Toto chování je možné vypnout nastavením vlastnosti `$texy->mergeLines = false`.
 
 Volba výstupu HTML / XHTML
--------------
+--------------------------
 
 Formát výstupu zvolíte metodou `$texy->setOutputMode(format)`. Jako `formát` zadejte jednu z těchto konstant:
 

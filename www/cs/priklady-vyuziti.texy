@@ -3,7 +3,7 @@ Příklady využití
 
 
 Běžní uživatelé .[#bfu]
----------------
+-----------------------
 
 Texy původně vznikl jako nástroj, který umožnil i uživatelům neznalým HTML **snadno editovat obsah** webových stránek. Záměrem bylo vytvořit silnou **alternativu k WYSIWYG** editorům, které se v praxi [ukazují jako neefektivní | texy-vs-wysiwyg].
 
@@ -11,7 +11,7 @@ Běžný uživatel se může plně věnovat psaní "čistého textu .(napříkla
 
 
 Zkušení pisatelé .[#experienced]
-----------------
+--------------------------------
 
 Zkušení tvůrci internetového obsahu, jakými jsou například bloggeři, často jazyk HTML znají. Ale psát články přímo v něm je nepříjemné a proto si zjednodušují práci používáním chytrých editorů. Jedním z nich je i Texy Je navíc dostupný i přes webové rozhraní a nabízí **neobvykle vysoký konfort**.
 
@@ -19,7 +19,7 @@ Díky Texy se autor může plně věnovat obsahu dokumentu a nemusí uvažovat n
 
 
 Komentáře a diskuzní fóra .[#comments]
--------------------------
+--------------------------------------
 
 Texy počítá i s nasazením jako formátovač příspěvků v diskuzních fórech a komentářích. Přispívatelé mohou používat jednotnou a **intuitivní syntaxi** a programátorům **odpadne náročná práce** na vlastním formátovači.
 

@@ -1,5 +1,5 @@
 Základní dovednosti
-=======
+*******************
 
 Jak přeformátovat text do HTML? Stačí do kódu začlenit knihovnu texy.php (nebo texy.compact.php) a vytvořit objekt `$texy = new Texy\Texy;`.
 

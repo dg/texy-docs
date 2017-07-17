@@ -3,7 +3,7 @@ Syntax
 
 
 Абзацы
-==============
+======
 
 /--code texy
 Lorem ipsum dolor sit amet,
@@ -56,16 +56,16 @@ Lorem ipsum dolor sit amet.
 
 
 Заголовки
-=======
+=========
 
 Первый способ:
 
 /--code texy
 Main title
-**************
+**********
 
 Subtitle
-==========
+========
 \--
 
 
@@ -82,10 +82,10 @@ Subtitle
 
 /-- texysource .[html]
 Main title
-**************
+**********
 
 Subtitle
-==========
+========
 \--
 
 
@@ -93,12 +93,12 @@ Subtitle
 
 
 Горизонтальная линия
-=================
+====================
 
 В Texy используется четыре способа:
 
 /--code texy
---------
+------------
 
 ********
 
@@ -110,7 +110,7 @@ Subtitle
 
 
 Код
-====
+===
 
 /--code texy
   /---code php
@@ -146,7 +146,7 @@ Subtitle
 
 
 Выключение Texy
-============
+===============
 
 
 /--code texy
@@ -166,7 +166,7 @@ Subtitle
 
 
 Div-блоки
-==========================
+=========
 
 
 /--code texy
@@ -288,7 +288,7 @@ Do you know "Nette":http://nette.org?
 
 
 Предопределенные ссылки
----------
+-----------------------
 
 /--code texy
  [homepage]: https://texy.info/ Texy .(homepage)
@@ -314,7 +314,7 @@ Do you know "Nette":http://nette.org?
 
 
 Изображения
-=======
+===========
 
 /--code texy
 [* image.gif *]
@@ -381,7 +381,7 @@ Do you know "Nette":http://nette.org?
 
 
 Изображения, использующие предопределенные ссылки
----------
+-------------------------------------------------
 
 /--code texy
 What a beautiful girl [* picture*] !
@@ -396,7 +396,7 @@ alt="my girl" /> !
 
 
 Изображения с описанием
-------------------
+-----------------------
 
 /--code texy
 [* image.gif *] *** This is *description* under image
@@ -412,7 +412,7 @@ alt="my girl" /> !
 
 
 Phrases
-=====
+=======
 
 /--code texy
 *emphasis*
@@ -459,7 +459,7 @@ Cite: As ~~Frank Borland~~ said, ...
 
 
 With modifiers
----------------
+--------------
 
 
 /--code texy
@@ -479,7 +479,7 @@ With modifiers
 
 
 Direct HTML tags
-==========
+================
 
 /--code texy
 This <strong class=info>is strong</strong> text.
@@ -497,7 +497,7 @@ This <strong class="info">is strong</strong> text.
 
 
 Lists
-=======
+=====
 
 /--code texy
 -   Red
@@ -524,7 +524,7 @@ Lists
 
 
 Ordered
------------------
+-------
 
 
 /--code texy
@@ -600,7 +600,7 @@ III)  Tomorrow
 
 
 Nested lists
----------------
+------------
 
 /--code texy
 a)  Bird
@@ -635,7 +635,7 @@ c)  Parish
 
 
 Definition list
-----------------
+---------------
 
 /--code texy
 Concert Divokej Bill:
@@ -665,7 +665,7 @@ Concert Divokej Bill:
 
 
 With modifiers
----------------
+--------------
 
 
 /--code texy
@@ -688,7 +688,7 @@ PHP:    .{color:blue}
 
 
 Modifiers
-============
+=========
 
 These types of modifiers are available:
 
@@ -726,7 +726,7 @@ Another example .{color:blue; lang: cs}
 
 
 Quick-corrects .[#quickcorrect]
-==============
+===============================
 
 /--code texy
 - very long words division (with respect for language rules). Example: antidisestablishmentarianism
@@ -780,7 +780,7 @@ ned>litelnc mezery u&nbsp;telefonních čísel +420&nbsp;776&nbsp;552&nbsp;046
 symbol nahradit a kdy ne. Naptíklad šipka `->` nemůže být na konci tádku atd. Proto nebuďte ptekvapeni, když v n>kterých ptípadech Texy náhradu neprovede. Pokud to považujete za chybu, dejte mi v>d>t.*
 
 Zkratky, akronymy .[#acronym]
-------------------
+-----------------------------
 
 Používá se zápisu s dvojitou kulatou závorkou:
 
@@ -818,7 +818,7 @@ další informace na www.texy.info a takc ...
 
 
 Rozd>lení velmi dlouhých slov .[#longwords]
-=============================
+===========================================
 
 Velmi zajímavá a důležitá funkce Texy. Dlouhá slova mohou narušit vzhled stránky, proto je vhodnc prohlížeči naznačit, kde je může zalomit. Texy tyto místa hledá s ptihlcdnutím k národním zvyklostem, tedy slovo rozd>luje podle slabik:
 
@@ -841,7 +841,7 @@ nejneobhospoda&shy;továvateln>jší&shy;mi</p
 
 
 Tabulky .[#table]
-=======
+=================
 
 Ptíklad jednoduchc tabulky, sloupce se odd>lují znakem `|`
 

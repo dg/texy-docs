@@ -14,7 +14,7 @@ Prvotní logikou syntaxe je **žádnou syntaxi nepoužívat**. Jen psát čistý
 
 
 Odstavce textu .[#paragraph]
-==============
+============================
 
 Za odstavec se považuje jeden nebo více bezprostředně za sebou následujících řádků textu. Odstavečky jsou od sebe oddělené prázdným řádkem.
 
@@ -39,7 +39,7 @@ Kdoví jestli
 
 
 Titulky .[#heading]
-=======
+===================
 
 Titulky je možné zapsat hned dvěma způsoby: **podtržením** nebo **předsazením**.
 
@@ -70,12 +70,12 @@ Jak vidíte v případě podtitulku, znaky vpravo je možné vynechat.
 
 
 Horizontální čáry .[#horizline]
-=================
+===============================
 
 Texy zná tyto způsoby zápisu:
 
 /--code texy
---------
+------------
 
 ********
 \--
@@ -87,7 +87,7 @@ Texy zná tyto způsoby zápisu:
 
 
 Vypnutí Texy .[#disable-texy]
-============
+=============================
 
 Klíčové slovo `html` nebo `text` ovlivňuje, jestli obsah bude chápán jako HTML (včetně značek), nebo prostý text.
 
@@ -117,7 +117,7 @@ Pro inline vypnutí Texy je možné použít dvojitý apostrof `''` a obalit s n
 
 
 Citace .[#blockquote]
-======
+=====================
 
 Citace jsou odsazené, podobně jako v emailech, znakem `>`
 
@@ -132,7 +132,7 @@ Citace jsou odsazené, podobně jako v emailech, znakem `>`
 
 
 Odkazy .[#link]
-======
+===============
 
 Odkazy se zapisují tak, že odkazující text uzavřete do uvozovek a následujete dvojtečkou a URL. Texy se snaží inteligentně odhadnout konec URL. Můžete mu i pomoci tím, že URI uzavřete do hranatých závorek. Část `http://` není povinná.
 
@@ -153,7 +153,7 @@ Do you know "La Trine":https://www.latrine.cz?
 
 
 Obrázky .[#image]
-=======
+=================
 
 Zapisují se mezi hranaté závorky s hvězdičkou:
 
@@ -189,7 +189,7 @@ Za obrázkem uveďte tři hvězdičky a následuje popiska:
 
 
 Fráze .[#phrase]
-=====
+================
 
 Asi nejpoužívanější syntax v Texy. Téměř ve všech případech se používá zdvojený znak.
 
@@ -226,7 +226,7 @@ Odstraňte ''<br />'' a entitu ''&ndash''
 
 
 Přímé HTML .[#html]
-==========
+===================
 
 Texy není náhrada za HTML. Nehledá ani alternativní způsoby zápisu HTML. Cílem je zjednodušit psaní obsahu. Pokud se Vám zdá jednodušší zapsat některou strukturu přímo v HTML, můžete tak učinit. HTML značky jsou plně podporované.
 
@@ -239,7 +239,7 @@ This <strong class=info>is strong</strong> text.
 
 
 Seznamy .[#list]
-=======
+================
 
 Odrážkové seznamy zapisujeme pomocí `*` `+` nebo `-`. Musí být zapsán hned na začátku řádku a za ním musí následovat mezera.
 
@@ -317,7 +317,7 @@ Koncert Divokej Bill:
 
 
 Modifikátory .[#modifier]
-============
+=========================
 
 Nejsilnější zbraň Texy. Lze použít tyto druhy modifikátorů:
 
@@ -360,7 +360,7 @@ Obarveno modifikátorem .{color:blue; lang: cs}
 
 
 Typografie .[#typography]
-==============
+=========================
 
 Sem patří všechny úpravy a náhrady textu, které upravují jeho vzhled v souladu s typografickými pravidly a podobně:
 
@@ -404,7 +404,7 @@ symbol nahradit a kdy ne. Například šipka `->` nemůže být na konci řádku
 
 
 Zkratky, akronymy .[#acronym]
-------------------
+-----------------------------
 
 Používá se zápisu s dvojitou kulatou závorkou:
 
@@ -417,7 +417,7 @@ víceslovné: "et al."((a další))
 
 
 Klikatelné webové adresy
---------------
+------------------------
 
 Automatický převod webových adres a emailů do klikatelné formy
 
@@ -435,7 +435,7 @@ další informace na www.texy.info a také ...
 
 
 Rozdělení velmi dlouhých slov .[#longwords]
-=============================
+===========================================
 
 Velmi zajímavá a důležitá funkce Texy. Dlouhá slova mohou narušit vzhled stránky, proto je vhodné prohlížeči naznačit, kde je může zalomit. Texy tyto místa hledá s přihlédnutím k národním zvyklostem, tedy slovo rozděluje podle slabik:
 
@@ -458,7 +458,7 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 
 
 Tabulky .[#table]
-=======
+=================
 
 Příklad jednoduché tabulky, sloupce se oddělují znakem `|`
 

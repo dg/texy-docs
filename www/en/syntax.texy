@@ -3,7 +3,7 @@ Syntax
 
 
 Paragraphs
-==============
+==========
 
 /--code texy
 Lorem ipsum dolor sit amet,
@@ -56,16 +56,16 @@ Lorem ipsum dolor sit amet.
 
 
 Headings
-=======
+========
 
 One way:
 
 /--code texy
 Main title
-**************
+**********
 
 Subtitle
-==========
+========
 \--
 
 
@@ -82,10 +82,10 @@ Second way:
 
 /-- texysource .[html]
 Main title
-**************
+**********
 
 Subtitle
-==========
+========
 \--
 
 
@@ -93,12 +93,12 @@ Subtitle
 
 
 Horizontal line
-=================
+===============
 
 Texy knows four ways:
 
 /--code texy
---------
+------------
 
 ********
 
@@ -171,7 +171,7 @@ You can also disable Texy for a part of inline text by using double apostrophe `
 
 
 Div
-==========================
+===
 
 
 /--code texy
@@ -227,7 +227,7 @@ Nested divs:
 
 
 Block quotes
-======
+============
 
 /--code texy
 > This is a blockquote with two paragraphs.
@@ -272,7 +272,7 @@ Nested block quote:
 
 
 Links
-======
+=====
 
 /--code texy
 Look at homepage:[https://texy.info].
@@ -295,7 +295,7 @@ Do you know "Nette":http://nette.org?
 
 
 References
----------
+----------
 
 /--code texy
  [homepage]: https://texy.info/ Texy .(homepage)
@@ -321,7 +321,7 @@ References
 
 
 Images
-=======
+======
 
 /--code texy
 [* image.gif *]
@@ -347,7 +347,7 @@ Aligned images:
 
 
 With dimensions
--------
+---------------
 
 /--code texy
 [* image.gif 10x20 *]
@@ -359,7 +359,7 @@ With dimensions
 
 
 With on-mouse-over event
----------------------
+------------------------
 
 /--code texy
 [* image.gif | image-over.gif *]
@@ -375,7 +375,7 @@ With on-mouse-over event
 
 
 With modifiers
-------------
+--------------
 
 /--code texy
 [* image.gif .(alt text)[foto] *]
@@ -388,7 +388,7 @@ With modifiers
 
 
 Image using references
----------
+----------------------
 
 /--code texy
 What a beautiful girl [* picture*] !
@@ -403,7 +403,7 @@ alt="my girl" /> !
 
 
 Images with description
-------------------
+-----------------------
 
 /--code texy
 [* image.gif *] *** This is *description* under image
@@ -419,7 +419,7 @@ Images with description
 
 
 Phrases
-=====
+=======
 
 /--code texy
 *emphasis*
@@ -466,7 +466,7 @@ Cite: As ~~Frank Borland~~ said, ...
 
 
 With modifiers
----------------
+--------------
 
 
 /--code texy
@@ -486,7 +486,7 @@ With modifiers
 
 
 Direct HTML tags
-==========
+================
 
 /--code texy
 This <strong class=info>is strong</strong> text.
@@ -504,7 +504,7 @@ This <strong class="info">is strong</strong> text.
 
 
 Lists
-=======
+=====
 
 /--code texy
 -   Red
@@ -531,7 +531,7 @@ Lists
 
 
 Ordered
------------------
+-------
 
 
 /--code texy
@@ -607,7 +607,7 @@ III)  Tomorrow
 
 
 Nested lists
----------------
+------------
 
 /--code texy
 a)  Bird
@@ -642,7 +642,7 @@ c)  Parish
 
 
 Definition list
-----------------
+---------------
 
 /--code texy
 Concert Divokej Bill:
@@ -672,7 +672,7 @@ Concert Divokej Bill:
 
 
 With modifiers
----------------
+--------------
 
 
 /--code texy
@@ -695,7 +695,7 @@ PHP:    .{color:blue}
 
 
 Modifiers
-============
+=========
 
 These types of modifiers are available:
 
@@ -787,7 +787,7 @@ ned>litelnc mezery u&nbsp;telefonních čísel +420&nbsp;776&nbsp;552&nbsp;046
 symbol nahradit a kdy ne. Naptíklad šipka `->` nemůže být na konci tádku atd. Proto nebuďte ptekvapeni, když v n>kterých ptípadech Texy náhradu neprovede. Pokud to považujete za chybu, dejte mi v>d>t.*
 
 Zkratky, akronymy
-------------------
+-----------------
 
 Používá se zápisu s dvojitou kulatou závorkou:
 
