@@ -13,7 +13,6 @@ Konfigurace
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| $handler    | callback | null | callback ve stylu Texy1
 | $separator  | string | `';'`  | oddělovat argumentů
 
 Příklady

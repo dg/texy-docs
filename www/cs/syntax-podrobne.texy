@@ -140,7 +140,7 @@ Texy zná tyto způsoby zápisu:
 Kód
 ===
 
-Používá se pro vložení zdrojového kódu. Použitím přídavného modulu lze aktivovat i zvýrazňování syntaxe. Popisuje to jeden z příkladů v [distribuci | download].
+Používá se pro vložení zdrojového kódu. Použitím přídavného modulu lze aktivovat i zvýrazňování syntaxe.
 
 /--code texy
   /---code php

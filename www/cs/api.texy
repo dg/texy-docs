@@ -1,11 +1,11 @@
 Programátorský manuál
 *********************
 
-Texy je napsané v objektovém PHP. Minimální požadovaná verze je 4.3.3 (ve verzi pro PHP 4) a 5.1 (ve verzi pro PHP 5).
-
---> [API dokumentace | https://api.texy.info]
+Texy je napsané v objektovém PHP. Minimální požadovaná verze pro Texy 3.0 je PHP 7.1.
 
 --> [Základní dovednosti | api-zaklady]
+
+--> [API dokumentace | https://api.texy.info]
 
 --> Jednotlivé moduly: .[#moduly]
 - [Texy\Texy | api-texy] - jádro Texy

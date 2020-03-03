@@ -23,7 +23,6 @@ Konfigurace
 | $leftClass  | string | null | třída obrázku plovoucího vlevo
 | $rightClass | string | null | třída obrázku plovoucího vpravo
 | $defaultAlt | string | `''` | výchozí hodnota atributu `alt`
-| $onLoad     | string | *fikaný skript* | `onload` handler
 
 
 Fyzická cesta k obrázkům `$fileRoot` se používá ke zjištění jich rozměrů, které se pak uvedou v HTML výstupu. Modul se cestu pokusí detekovat z prostředí serveru, nicméně je vhodnější ji nastavit manuálně.

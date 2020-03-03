@@ -1,11 +1,13 @@
 Texy! je sexy!
 ==============
 
-<a href="https://github.com/dg/texy/releases" id="download" class="right"><strong>Start Download</strong><br />Latest version</a>
+Texy je program, díky kterému můžete snadno, bez odborných znalostí, psát texty na webové stránky.
 
-Texy je program, díky kterému můžete snadno, bez odborných znalostí, psát texty na webové stránky. Používají ho tisíce spokojených uživatelů.
+Chcete zvýraznit písmo? Vytvořit nadpis či odrážky? Přidat obrázek nebo tabulku? Nemusíte zápasit se složitým textovým editorem. Stačí psát prostý text a Texy už úpravu zvládne za vás. Výsledkem bude hezky zformátovaná stránka.
 
---> [Více o Texy | co je texy]
+--> [Vyzkoušejte si to | https://texy.info/cs/try/]
+
+Texy dnes používají [tisíce spokojených uživatelů | napsali o Texy].
 
 
 Co všechno umí?
@@ -14,16 +16,15 @@ Co všechno umí?
 - vytvářet odkazy, odrážky, tabulky,...
 - vkládat do textu obrázky
 - zná českou typografii
-- a navíc je **zdarma!** (Texy je open source)
-
-a pro odborníky:
-
-- generuje vždy validní HTML nebo XHTML kód
-- plně podporuje CSS((Kaskádové styly)) a UTF-8
+- a navíc je **zdarma!** (pod licencí BSD a GPL)
+- generuje vždy validní HTML kód
+- vkládá pevné mezery za jednopísmenné předložky
+- je dokonale konfigurovatelné a přizpůsobitelné
 
 
+Objevte Texy!
+-------------
 
-{{lang: en/homepage}}
-{{lang: de, homepage}}
-{{lang: pl, homepage}}
-{{lang: fr, homepage}}
+- Srovnání [Texy versus WYSIWYG editory | texy-vs-wysiwyg]
+- [Příklady využití | priklady-vyuziti]
+- [Základy syntaxe | syntax]

@@ -1,15 +1,15 @@
 Základní dovednosti
 *******************
 
-Jak přeformátovat text do HTML? Stačí do kódu začlenit knihovnu texy.php (nebo texy.compact.php) a vytvořit objekt `$texy = new Texy\Texy;`.
+Jak přeformátovat text do HTML? Stačí do kódu začlenit knihovnu Texy, například pomocí Composeru:
 
-Celý převod obstará metoda `$html = $texy->process($text)`, kde proměnná `$text` obsahuje vstupní text a vrací se zformátovaný HTML výstup.
+/--
+composer require texy/texy
+\--
 
-/-- code php
+A vytvořit objekt `$texy = new Texy\Texy;`. Celý převod obstará metoda `$html = $texy->process($text)`, kde proměnná `$text` obsahuje vstupní text a vrací se zformátovaný HTML výstup.
 
-// vložíme knihovnu
-require_once 'texy.php';
-
+/--php
 // vytvoříme objekt
 $texy = new Texy\Texy;
 
@@ -18,9 +18,8 @@ $texy->imageModule->root  = 'images/';
 
 // a zpracujeme vstupní $text
 $html = $texy->process($text);
-
 \--
 
-Pokud potřebujete formátovat jednořádkový text (tedy bez blokových elementů), použijte `$html = $texy->process($text, true)`.
+Pokud potřebujete formátovat jednořádkový text (tedy bez blokových elementů), použijte `$html = $texy->processLine($text)`.
 
 V ukázce vidíte, jak je možné objekt `$texy` konfigurovat. Protože parametrů je hodně, jsou rozčleněny do logických celků označovaných jako moduly. Instance každého modulu je uložena v atributu `$texy->blockModule`, `$texy->emoticonModule` atd. (viz [jednotlivé moduly | api#moduly]).

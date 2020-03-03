@@ -1,7 +1,7 @@
-Konfigurace dema
-****************
+Demo configuration
+******************
 
-Toto nastavení se používá v [demu | /cs/try]:
+This setting is used in [demu | /cs/try]:
 
 /--php
 $texy = new Texy\Texy;
@@ -14,7 +14,7 @@ $texy->headingModule->generateID = true;
 $texy->addHandler('block', 'blockHandler');
 \--
 
-Handler pro zvýrazňování syntaxe používá knihovnu Prism.js:
+The handler uses Prism.js to highlight syntax:
 
 /--php
 function blockHandler(
@@ -42,7 +42,7 @@ function blockHandler(
 }
 \--
 
-Po dokončení konverze se navíc v textu zamění některé znaky za entity, aby byly lépe patrné:
+In addition, when the conversion is complete, some characters are replaced by entities in the text to make them more visible:
 
 /--php
 $html = $texy->process($text);

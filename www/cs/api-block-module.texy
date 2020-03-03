@@ -9,9 +9,3 @@ $texy->allowed['blocks'] = false;
 // nebo pro jednotlivé typy bloků
 $texy->allowed['block/code'] = false;
 \--
-
-
-Příklady
---------
-
-*Dokumentace se připravuje*

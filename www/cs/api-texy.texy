@@ -4,7 +4,6 @@ Třída Texy\Texy
 |----------------
 | proměnná | typ | výchozí | popis |
 |----------------
-| `$encoding`     | string   | `'UTF-8'` | kódování vstupního a výstupního textu
 | `$allowed`      | mixed    |  | povolené "Texy syntaxe"
 | `$allowedTags`  | mixed    | *validní značky* | povolené HTML značky
 | `$allowedClasses` | mixed  | Texy::ALL | povolené CSS třídy a identifikátory
@@ -14,7 +13,6 @@ Třída Texy\Texy
 | `$tabWidth`     | int      | 8       | šířka tabulátorů kvůli převední na mezery
 | `$obfuscateEmail` | boolean| true    | maskovat emailové adresy před roboty?
 | `$urlSchemeFilters` | array| null    |
-| `$styleSheet`   | string   | null    | připraveno pro uživatelské použití
 
 
 Proměnné `$allowedTags`, `$allowedClasses` a `$allowedStyles` mohou nabývat hodnot:
@@ -30,19 +28,6 @@ Pole `$alignClasses` definuje CSS třídy pro zarovnání textu a obrázků. Bl�
 
 Texy spojuje řádky následující za sebou do odstavců. Toto chování je možné vypnout nastavením vlastnosti `$texy->mergeLines = false`.
 
-Volba výstupu HTML / XHTML
---------------------------
-
-Formát výstupu zvolíte metodou `$texy->setOutputMode(format)`. Jako `formát` zadejte jednu z těchto konstant:
-
-| `Texy::HTML4_TRANSITIONAL` | HTML 4.0 Transitional, in which deprecated elements are allowed
-| `Texy::HTML4_STRICT` | HTML 4.0 Strict, in which deprecated elements are forbidden
-| `Texy::HTML5` | not supported yet
-| `Texy::XHTML1_TRANSITIONAL` | XHTML 1.0 Transitional
-| `Texy::XHTML1_STRICT` | XHTML 1.0 Strict
-| `Texy::XHTML5` | not supported yet
-
-Výchozí režim je `Texy::XHTML1_TRANSITIONAL`.
 
 Příklady
 --------
@@ -53,7 +38,7 @@ Povolíme pouze HTML elementy `<strong>, <div>, <a>` a některé jejich atributy
 $texy->allowedTags = [
     'strong' => Texy::NONE,  // <strong> nesmí mít žádné attributy
     'div' => Texy::ALL,  // <div> může mít jakékoliv atributy
-    'a' => array('href', 'lang', 'target'), // <a> může mít jen tyto atributy
+    'a' => ['href', 'lang', 'target'], // <a> může mít jen tyto atributy
 ];
 \--
 
@@ -73,12 +58,6 @@ Povolíme pouze CSS vlastnosti `font-size, color, width`
 
 /--code php
 $texy->allowedStyles = ['font-size', 'color', 'width'];
-\--
-
-Důležité je vždy nastavit správné kódování vstupního a výstupního text
-
-/--code php
-$texy->encoding = 'windows-1250';
 \--
 
 Místo přímých stylů `style="text-align:left"` apod. používej třídy `class="left"` apod.
