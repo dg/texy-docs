@@ -199,8 +199,6 @@ Asi nejpoužívanější syntax v Texy. Téměř ve všech případech se použ�
 **tučné**
 
 x^2 + y^3
-
-Krátká citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 \--
 
 
@@ -210,8 +208,6 @@ Krátká citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 **tučné**
 
 x^2 + y^3
-
-Krátká citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 \--
 
 
@@ -400,7 +396,7 @@ nedělitelné mezery u&nbsp;telefonních čísel +420&nbsp;776&nbsp;552&nbsp;046
 \--
 
 *Poznámka: Nahrazování se obvykle řídí dalšími pravidly, které určují, kdy
-symbol nahradit a kdy ne. Například šipka `->` nemůže být na konci řádku atd. Proto nebuďte překvapeni, když v některých případech Texy náhradu neprovede. Pokud to považujete za chybu, dejte mi vědět.*
+symbol nahradit a kdy ne. Například šipka `->` nemůže být na konci řádku atd. Proto nebuďte překvapeni, když v některých případech Texy náhradu neprovede.*
 
 
 Zkratky, akronymy .[#acronym]
@@ -448,8 +444,6 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 \--
 
 *Poznámka: limit délky slova je volitelný*
-
-*Poznámka: současné prohlížeče na jádru Gecko (Mozilla, Firefox) jsou k naznačenému dělení slepí. Doufám, že vývojáři tento nedostatek brzy odstraní. Nebo zkuste [tohle | https://forum.texy.info/cs/viewtopic.php?id=36]*
 
 
 

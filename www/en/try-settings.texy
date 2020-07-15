@@ -1,7 +1,7 @@
 Demo configuration
 ******************
 
-This setting is used in [demu | /cs/try]:
+This setting is used in [demo | /cs/try]:
 
 /--php
 $texy = new Texy\Texy;
@@ -18,10 +18,10 @@ The handler uses Prism.js to highlight syntax:
 
 /--php
 function blockHandler(
-	Texy\HandlerInvocation $invocation, 
-	string $blocktype, 
-	string $content, 
-	string $lang, 
+	Texy\HandlerInvocation $invocation,
+	string $blocktype,
+	string $content,
+	string $lang,
 	Texy\Modifier $modifier
 ): Texy\HtmlElement
 {

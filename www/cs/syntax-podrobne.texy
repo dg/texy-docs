@@ -18,7 +18,6 @@ Podrobný popis syntaxe
 - [#Typografie]
 - [#Rozdělení velmi dlouhých slov]
 - [#Tabulky]
-- [#Otázky kompatiblity]
 
 
 Filozofie
@@ -257,19 +256,13 @@ Citace jsou odsazené, podobně jako v emailech, znakem `>`
 > This is a blockquote with two paragraphs.
 >
 > 640 K should be enough for everyone
->
->:http://www.microsoft.com
 \--
 
 /--texysource
 > This is a blockquote with two paragraphs.
 >
 > 640 K should be enough for everyone
->
->:http://www.microsoft.com
 \--
-
-Zdroj (URI) citace je uveden pomocí dvojtečkové notace, jak je vidět v příkladu. Stejně jako u [bloků | #div] je možné citace vnořovat, používat v nich titulky atd.
 
 
 
@@ -367,24 +360,6 @@ U lokálních obrázků Texy zjistí rozměry automaticky. Pokud je chcete urči
 \--
 
 
-Událost on-mouse-over
----------------------
-
-A toto už je vyšší škola Texy :-) Překlapovací obrázky vytvoříte velmi jednoduše - v jednom obrázku uvedete dvě URL oddělené znakem `|`
-
-/--code texy
-[* image.gif | image-over.gif *]
-\--
-
-/--texysource line
-[* image.gif | image-over.gif *]
-\--
-
-/--div .[output]
-[* image.gif | image-over.gif *]
-\--
-
-
 Modifikátory
 ------------
 
@@ -450,8 +425,6 @@ Asi nejpoužívanější syntax v Texy. Téměř ve všech případech se použ�
 **tučné**
 
 superscript^2 vs. subscript_2
-
-Citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 \--
 
 /--texysource
@@ -462,8 +435,6 @@ Citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 **tučné**
 
 superscript^2 vs. subscript_2
-
-Citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 \--
 
 /--div .[output]
@@ -476,11 +447,7 @@ Citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 ***nejsilněji zdůrazněné***
 
 superscript^2 vs. subscript_2
-
-Citace: >>Lorem Ipsum Dolores<<:www.lipsum.com
 \--
-
-V případě krátkého citátu je možné vložit i zdroj, pomocí dvojtečkové notace.
 
 Speciálním případem fráze je tzv. kód. Od ostatních se liší tím, že jeho obsah nebude nadále formátován a zobrazí se doslovně:
 
@@ -811,8 +778,6 @@ jednoslovné: NATO((North Atlantic Treaty Organisation))
 
 víceslovné: "et al."((a další))
 \--
-
-*Poznámka: mezi ABBR a ACRONYM se [nerozlišuje | https://forum.texy.info/cs/viewtopic.php?id=11].*
 
 
 Klikatelné URI
