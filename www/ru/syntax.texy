@@ -340,7 +340,7 @@ Do you know "Nette":http://nette.org?
 
 
 С измерениями
--------
+-------------
 
 /--code texy
 [* image.gif 10x20 *]
@@ -352,7 +352,7 @@ Do you know "Nette":http://nette.org?
 
 
 С событием наведения мышки
----------------------
+--------------------------
 
 /--code texy
 [* image.gif | image-over.gif *]
@@ -368,7 +368,7 @@ Do you know "Nette":http://nette.org?
 
 
 С модификаторами
-------------
+----------------
 
 /--code texy
 [* image.gif .(alt text)[foto] *]

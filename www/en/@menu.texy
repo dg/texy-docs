@@ -1,5 +1,6 @@
 - [home | homepage]
-- [syntax]
+- [syntax briefly | syntax]
+- [syntax in detail | syntax-full]
 - **DEMO**:https://texy.info/en/try/
 - [releases | https://github.com/dg/texy/releases]
 - [API manual | https://api.texy.info]
