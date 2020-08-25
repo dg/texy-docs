@@ -18,10 +18,10 @@ Handler pro zvýrazňování syntaxe používá knihovnu Prism.js:
 
 /--php
 function blockHandler(
-	Texy\HandlerInvocation $invocation, 
-	string $blocktype, 
-	string $content, 
-	string $lang, 
+	Texy\HandlerInvocation $invocation,
+	string $blocktype,
+	string $content,
+	string $lang,
 	Texy\Modifier $modifier
 ): Texy\HtmlElement
 {
