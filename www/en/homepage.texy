@@ -26,3 +26,6 @@ Why Texy
 - bulletproof - ensures the well-formedness of the resulting code
 - predectable behaviour
 - flexible configuration
+
+
+{{maintitle: Texy – human friendy markup for PHP}}
