@@ -27,9 +27,9 @@ Texy подлежит лицензии GNU GPL. Доступны также пл
 
 [Синтаксис | syntax]
 
-{{lang: cs/homepage}}
-{{lang: en/homepage}}
-{{lang: de/homepage}}
-{{lang: pl/homepage}}
-{{lang: fr/homepage}}
-{{lang: ru/homepage}}
+{{lang: cs/@home}}
+{{lang: en/@home}}
+{{lang: de/@home}}
+{{lang: pl/@home}}
+{{lang: fr/@home}}
+{{lang: ru/@home}}
