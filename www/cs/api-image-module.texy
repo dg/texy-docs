@@ -11,6 +11,7 @@ $texy->allowed['image'] = false;
 $texy->allowed['image/definition'] = false;
 \--
 
+
 Konfigurace
 -----------
 

@@ -17,6 +17,7 @@ $texy->allowed['link/url'] = false;
 $texy->allowed['link/email'] = false;
 \--
 
+
 Konfigurace
 -----------
 
@@ -29,6 +30,7 @@ Konfigurace
 | $shorten       | boolean    | true | zkracovat URL?
 
 Texy automaticky doplňuje atribut nofollow odkazům, které mají pseudotřídu `nofollow`, např. `"odkaz .[nofollow]":www.texy.info`.
+
 
 Příklad
 -------

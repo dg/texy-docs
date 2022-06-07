@@ -11,10 +11,8 @@ Today, Texy also serves well-experienced HTML experts. Allows you to freely comb
 The primary logic of the syntax is **not to use any syntax**. Just write plain text. Inserting advanced information, such as CSS classes or links, does not disrupt the flow of text. And it is written in a way that even non-technical users can easily understand.
 
 
-
-
-Paragraphs  .[#paragraph]
-=========================
+Paragraphs .[#paragraph]
+========================
 
 A paragraph is considered to be one or more consecutive lines of text. The paragraphs are separated by a blank line.
 
@@ -35,9 +33,6 @@ April is the cruellest month, breeding
 \--
 
 
-
-
-
 Headings .[#heading]
 ====================
 
@@ -48,6 +43,7 @@ Each headline has its own degree. In the case of **underlined**, the importance 
 /--code texy
 Head title
 **********
+
 
 Subtitle
 ========
@@ -66,13 +62,11 @@ The following applies: the more characters, the more important the title (minimu
 As you can see in the case of the subtitle, the characters on the right can be omitted.
 
 
-
-
-
-Horizontal lines .[#horizline]
+Horizontal Lines .[#horizline]
 ==============================
 
 Texy knows these notations:
+
 
 /--code texy
 ------------
@@ -81,12 +75,7 @@ Texy knows these notations:
 \--
 
 
-
-
-
-
-
-Turning off the Texy .[#disable-texy]
+Turning Off the Texy .[#disable-Texy]
 =====================================
 
 The keyword `html` or` text` affects whether the content will be understood as HTML (including tags) or plain text.
@@ -109,13 +98,6 @@ To turn off Texy inline, it is possible to use a double apostrophe `''` and wrap
 \--
 
 
-
-
-
-
-
-
-
 Quotes .[#blockquote]
 =====================
 
@@ -126,9 +108,6 @@ Quotes are indented, similarly to emails, by a character `>`
 >
 > 640 K should be enough for everyone
 \--
-
-
-
 
 
 Links .[#link]
@@ -145,10 +124,6 @@ Do you know "La Trine":https://www.latrine.cz?
 
 "Write me":me@example.com
 \--
-
-
-
-
 
 
 Images .[#image]
@@ -170,7 +145,6 @@ In text paragraphs, you often need to choose whether the image should be left-al
 \--
 
 
-
 Figure with Caption
 -------------------
 
@@ -180,11 +154,6 @@ Enter three asterisks after the image, followed by a caption:
 /--code texy
 [* image.gif *] *** This is the *caption* below the image
 \--
-
-
-
-
-
 
 
 Phrases .[#phrase]
@@ -217,9 +186,6 @@ Remove ''<br />'' and entity ''&ndash''
 \--
 
 
-
-
-
 Direct HTML .[#html]
 ====================
 
@@ -229,8 +195,6 @@ Texy is not a substitute for HTML. It also doesn't look for alternative ways to 
 This <strong class=info>is strong</strong> text.
 <br> This is not.
 \--
-
-
 
 
 Lists .[#list]
@@ -243,7 +207,6 @@ Bulleted lists are written using `*`, `+` or `-`. It must be written at the very
 -   Green
 -   Blue
 \--
-
 
 
 Numbered Lists
@@ -270,7 +233,6 @@ III)  Tomorrow
 \--
 
 
-
 Nested Lists
 ------------
 
@@ -290,7 +252,6 @@ c)  Parish
 \--
 
 
-
 Definition List
 ---------------
 
@@ -305,10 +266,6 @@ Wild Bill concert:
      - place: Vodová Hall, Brno
      - price: 260 CZK
 \--
-
-
-
-
 
 
 Modifiers .[#modifier]
@@ -348,10 +305,6 @@ Colored by a modifier .{color:blue; lang: cs}
 
 <p style="color:blue" lang="cs">Colored by a modifier</p>
 \--
-
-
-
-
 
 
 Typography .[#typography]
@@ -410,7 +363,6 @@ multiword: "et al."((and more))
 \--
 
 
-
 Clickable Web Addresses
 -----------------------
 
@@ -423,10 +375,6 @@ more information at www.texy.info and also ...
 /--div .[output]
 more information at www.texy.info and also ...
 \--
-
-
-
-
 
 
 Long Words Hyphenation .[#longwords]
@@ -443,10 +391,6 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 \--
 
 *Note: the word length limit is optional*
-
-
-
-
 
 
 Tables .[#table]
@@ -496,7 +440,6 @@ Notice the double `||`:
 | Name                  || Age
 |----------------------------
 | Jesus      | Christ    | 33
-
 
 
 Merging Rows

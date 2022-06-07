@@ -11,8 +11,6 @@ Dnes Texy výborně slouží i zkušeným znalcům jazyka HTML. Dovoluje volně 
 Prvotní logikou syntaxe je **žádnou syntaxi nepoužívat**. Jen psát čistý text. Vkládání rozšířených informací, jako třeba CSS třídy nebo odkazy, nenaruší tok textu. A zapíší se způsobem, který snadno pochopí i netechnicky založení uživatelé.
 
 
-
-
 Odstavce textu .[#paragraph]
 ============================
 
@@ -35,9 +33,6 @@ Kdoví jestli
 \--
 
 
-
-
-
 Titulky .[#heading]
 ===================
 
@@ -48,6 +43,7 @@ Každý titulek má svůj stupeň. V případě **podtržení** o důležitosti 
 /--code texy
 Hlavní titulek
 **************
+
 
 Podtitulek
 ==========
@@ -66,24 +62,17 @@ Platí: čím více znaků, tím důležitější titulek (minimum jsou dva znak
 Jak vidíte v případě podtitulku, znaky vpravo je možné vynechat.
 
 
-
-
-
 Horizontální čáry .[#horizline]
 ===============================
 
 Texy zná tyto způsoby zápisu:
+
 
 /--code texy
 ------------
 
 ********
 \--
-
-
-
-
-
 
 
 Vypnutí Texy .[#disable-texy]
@@ -109,13 +98,6 @@ Pro inline vypnutí Texy je možné použít dvojitý apostrof `''` a obalit s n
 \--
 
 
-
-
-
-
-
-
-
 Citace .[#blockquote]
 =====================
 
@@ -126,9 +108,6 @@ Citace jsou odsazené, podobně jako v emailech, znakem `>`
 >
 > 640 K should be enough for everyone
 \--
-
-
-
 
 
 Odkazy .[#link]
@@ -146,10 +125,6 @@ Do you know "La Trine":https://www.latrine.cz?
 "Write me":me@example.com
 
 \--
-
-
-
-
 
 
 Obrázky .[#image]
@@ -171,7 +146,6 @@ V textových odstavcích je často třeba zvolit, má-li být obrázek zarovnán
 \--
 
 
-
 Obrázek s popiskou
 ------------------
 
@@ -181,11 +155,6 @@ Za obrázkem uveďte tři hvězdičky a následuje popiska:
 /--code texy
 [* image.gif *] *** Toto je *popiska* pod obrázkem
 \--
-
-
-
-
-
 
 
 Fráze .[#phrase]
@@ -218,9 +187,6 @@ Odstraňte ''<br />'' a entitu ''&ndash''
 \--
 
 
-
-
-
 Přímé HTML .[#html]
 ===================
 
@@ -230,8 +196,6 @@ Texy není náhrada za HTML. Nehledá ani alternativní způsoby zápisu HTML. C
 This <strong class=info>is strong</strong> text.
 <br> This is not.
 \--
-
-
 
 
 Seznamy .[#list]
@@ -244,7 +208,6 @@ Odrážkové seznamy zapisujeme pomocí `*` `+` nebo `-`. Musí být zapsán hne
 -   Green
 -   Blue
 \--
-
 
 
 Číslované seznamy
@@ -271,7 +234,6 @@ III)  Tomorrow
 \--
 
 
-
 Vnořené seznamy
 ---------------
 
@@ -291,7 +253,6 @@ c)  Parish
 \--
 
 
-
 Definiční seznam
 ----------------
 
@@ -306,10 +267,6 @@ Koncert Divokej Bill:
     - místo: Hala Vodová, Brno
     - Cena: 260 Kč
 \--
-
-
-
-
 
 
 Modifikátory .[#modifier]
@@ -349,10 +306,6 @@ Obarveno modifikátorem .{color:blue; lang: cs}
 
 <p style="color:blue" lang="cs">Obarveno modifikátorem</p>
 \--
-
-
-
-
 
 
 Typografie .[#typography]
@@ -411,7 +364,6 @@ víceslovné: "et al."((a další))
 \--
 
 
-
 Klikatelné webové adresy
 ------------------------
 
@@ -424,10 +376,6 @@ další informace na www.texy.info a také ...
 /--div .[output]
 další informace na www.texy.info a také ...
 \--
-
-
-
-
 
 
 Rozdělení velmi dlouhých slov .[#longwords]
@@ -444,11 +392,6 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 \--
 
 *Poznámka: limit délky slova je volitelný*
-
-
-
-
-
 
 
 Tabulky .[#table]
@@ -498,7 +441,6 @@ všimněte si zdvojeného ||
 | Name                  || Age
 |----------------------------
 | Jesus      | Christ    | 33
-
 
 
 Sloučení řádků

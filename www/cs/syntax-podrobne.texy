@@ -30,9 +30,6 @@ Dnes Texy výborně slouží i zkušeným znalcům jazyka HTML. Dovoluje volně 
 Prvotní logikou syntaxe je **žádnou syntaxi nepoužívat**. Jen psát čistý text. Vkládání rozšířených informací, jako třeba CSS třídy nebo odkazy, nenaruší tok textu. A zapíší se způsobem, který snadno pochopí i netechnicky založení uživatelé.
 
 
-
-
-
 Odstavce textu
 ==============
 
@@ -71,9 +68,6 @@ Kdoví jestli
 \--
 
 
-
-
-
 Titulky
 =======
 
@@ -85,6 +79,7 @@ Každý titulek má svůj stupeň. V případě **podtržení** o důležitosti 
 Hlavní titulek
 **************
 
+
 Podtitulek
 ==========
 \--
@@ -92,6 +87,7 @@ Podtitulek
 /--texysource
 Hlavní titulek
 **************
+
 
 Podtitulek
 ==========
@@ -112,13 +108,11 @@ Jak vidíte v případě podtitulku, znaky vpravo je možné vynechat.
 *Stupně titulků jsou vždy jen relativní! Tedy Texy najde nejvyšší použitý titulek a ostatní titulky relativně od něj odstupňuje.*
 
 
-
-
-
 Horizontální čáry
 =================
 
 Texy zná tyto způsoby zápisu:
+
 
 /--code texy
 ------------
@@ -126,14 +120,12 @@ Texy zná tyto způsoby zápisu:
 ********
 \--
 
+
 /--texysource
 -------------
 
 ********
 \--
-
-
-
 
 
 Kód
@@ -164,8 +156,6 @@ Používá se pro vložení zdrojového kódu. Použitím přídavného modulu l
 *Všimněte si slova `php` pro označení jazyka.*
 
 
-
-
 Vypnutí Texy
 ============
 
@@ -187,8 +177,6 @@ Pro inline vypnutí Texy je možné použít dvojitý apostrof `''` a obalit s n
 /--code texy
    Příklad: ''**this is not strong**''
 \--
-
-
 
 
 Rozdělování do bloků (div)
@@ -244,9 +232,6 @@ Je možné bloky i vnořovat:
 \--
 
 
-
-
-
 Citace
 ======
 
@@ -263,8 +248,6 @@ Citace jsou odsazené, podobně jako v emailech, znakem `>`
 >
 > 640 K should be enough for everyone
 \--
-
-
 
 
 Odkazy
@@ -291,7 +274,6 @@ Do you know "La Trine":https://www.latrine.cz?
 \--
 
 
-
 Reference
 ---------
 
@@ -305,11 +287,6 @@ This is [homepage]
 
 Look at "this site":[nette]
 \--
-
-
-
-
-
 
 
 Obrázky
@@ -374,7 +351,6 @@ O nich se více dozvíte v [jiné kapitole | #modifier], ale neuškodí si ukáz
 \--
 
 
-
 Reference
 ---------
 
@@ -406,10 +382,6 @@ Za obrázkem uveďte tři hvězdičky a následuje popiska:
 /--texysource
 [* image.gif *] *** Toto je *popiska* pod obrázkem
 \--
-
-
-
-
 
 
 Fráze
@@ -480,9 +452,6 @@ Je možné jej vložit do každé fráze, vždy těsně před uzavírací znak:
 \--
 
 
-
-
-
 Přímé HTML
 ==========
 
@@ -501,9 +470,6 @@ This <strong class=info>is strong</strong> text.
 *Poznámka: všimněte si, že Texy upraví zápis atributů a značek tak, aby byly validní (i pro XHTML výstup). Stejně tak dbá na **well-formed zápis**!*
 
 *Poznámka: Rozhodování, která značky a které atributy můžou být v textu použity, je plně uživatelsky ovladatelné. Demonstruje to jeden příklad z distribuce.*
-
-
-
 
 
 Seznamy
@@ -528,7 +494,6 @@ Odrážkové seznamy zapisujeme pomocí `*` `+` nebo `-`. Musí být zapsán hne
 -   Green
 -   Blue
 \--
-
 
 
 Číslované seznamy
@@ -591,7 +556,6 @@ III)  Tomorrow
 \--
 
 
-
 Vnořené seznamy
 ---------------
 
@@ -624,7 +588,6 @@ c)  Parish
       2)  McHale
       3)  Parish
 \--
-
 
 
 Definiční seznam
@@ -674,8 +637,6 @@ triangl:   .{color:blue}
 \--
 
 
-
-
 Modifikátory
 ============
 
@@ -713,10 +674,6 @@ Vycentrováno modifikátorem  .<>
 
 Obarveno modifikátorem .{color:blue; lang: cs}
 \--
-
-
-
-
 
 
 Typografie
@@ -762,6 +719,7 @@ nedělitelné mezery u&nbsp;telefonních čísel +420&nbsp;776&nbsp;552&nbsp;046
 *Poznámka: Nahrazování se obvykle řídí dalšími pravidly, které určují, kdy
 symbol nahradit a kdy ne. Například šipka `->` nemůže být na konci řádku atd. Proto nebuďte překvapeni, když v některých případech Texy náhradu neprovede. Pokud to považujete za chybu, dejte mi vědět.*
 
+
 Zkratky, akronymy
 -----------------
 
@@ -794,10 +752,6 @@ další informace na www.texy.info a také ...
 \--
 
 
-
-
-
-
 Rozdělení velmi dlouhých slov
 =============================
 
@@ -814,11 +768,6 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 *Poznámka: limit délky slova je volitelný*
 
 *Poznámka: současné prohlížeče na jádru Gecko (Mozilla, Firefox) jsou k naznačenému dělení slepí. Doufám, že vývojáři tento nedostatek brzy odstraní. Nebo zkuste [tohle | https://forum.texy.info/cs/viewtopic.php?id=36]*
-
-
-
-
-
 
 
 Tabulky
@@ -884,7 +833,6 @@ všimněte si zdvojeného ||
 | Name                  || Age
 |----------------------------
 | Jesus      | Christ    | 33
-
 
 
 Sloučení řádků

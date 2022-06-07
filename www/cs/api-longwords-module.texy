@@ -7,6 +7,7 @@ Má na starosti rozdělení dlouhých slov. Modul vypneme zakázáním syntaxe `
 $texy->allowed['longwords'] = false;
 \--
 
+
 Konfigurace
 -----------
 

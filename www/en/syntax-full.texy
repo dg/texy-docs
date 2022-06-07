@@ -1,4 +1,4 @@
-Detailed description of syntax
+Detailed Description of Syntax
 ******************************
 
 
@@ -28,9 +28,6 @@ The Texy tool was created to allow inexperienced users to easily edit the conten
 Today, Texy also serves well-experienced HTML experts. Allows you to freely combine Texy notation with HTML tags. Thus, experienced users do not have to learn a new meta-language and make full use of their knowledge. Texy only simplifies their work.
 
 The primary logic of the syntax is ** not to use any syntax **. Just write plain text. Inserting advanced information, such as CSS classes or links, does not disrupt the flow of text. And it is written in a way that even non-technical users can easily understand.
-
-
-
 
 
 Paragraphs of Text
@@ -71,9 +68,6 @@ April is the cruellest month, breeding
 \--
 
 
-
-
-
 Headings
 ========
 
@@ -82,16 +76,18 @@ Headings can be written in two ways: **underlined** or **surrounded**.
 Each headline has its own degree. In the case of **underlined**, the importance of the title is decided by the underline character. From the highest to the lowest, these are: `#` `*` `=` `-`
 
 /--code texy
-Head title
+Head Title
 **********
+
 
 Subtitle
 ========
 \--
 
 /--texysource
-Head title
+Head Title
 **********
+
 
 Subtitle
 ========
@@ -112,10 +108,7 @@ As you can see in the case of the subtitle, the characters on the right can be o
 *Subtitle levels are always relative only! So Texy finds the highest caption used and relatively differentiates the other captions.*
 
 
-
-
-
-Horizontal lines
+Horizontal Lines
 ================
 
 Texy knows these notations:
@@ -131,9 +124,6 @@ Texy knows these notations:
 
 ********
 \--
-
-
-
 
 
 Code
@@ -164,9 +154,7 @@ Used to insert source code. Syntax highlighting can also be activated using an a
 *Note the words `php` to indicate the language.*
 
 
-
-
-Turning off the Texy
+Turning Off the Texy
 ====================
 
 The keyword `html` or` text` affects whether the content will be understood as HTML (including tags) or plain text.
@@ -189,9 +177,7 @@ To turn off Texy inline, it is possible to use a double apostrophe `''` and wrap
 \--
 
 
-
-
-Division into blocks (div)
+Division into Blocks (Div)
 ==========================
 
 Use this ability to create more complex documents.
@@ -244,9 +230,6 @@ It is also possible to nest blocks:
 \--
 
 
-
-
-
 Quotes
 ======
 
@@ -263,8 +246,6 @@ Quotes are indented, similarly to emails, by a character `>`
 >
 > 640 K should be enough for everyone
 \--
-
-
 
 
 Links
@@ -291,7 +272,6 @@ Do you know "La Trine":https://www.latrine.cz?
 \--
 
 
-
 References
 ----------
 
@@ -305,11 +285,6 @@ This is [homepage]
 
 Look at "this site":[nette]
 \--
-
-
-
-
-
 
 
 Images
@@ -374,7 +349,6 @@ You can learn more about them in [another chapter | #modifier], but it doesn't h
 \--
 
 
-
 Reference
 ---------
 
@@ -393,7 +367,7 @@ What a beautiful girl [* picture*] !
 \--
 
 
-Figure with caption
+Figure with Caption
 -------------------
 
 Enter three asterisks after the image, followed by a caption:
@@ -406,10 +380,6 @@ Enter three asterisks after the image, followed by a caption:
 /--texysource
 [* image.gif *] *** This is the *caption* below the image
 \--
-
-
-
-
 
 
 Phrases
@@ -484,9 +454,6 @@ It is possible to insert it into each phrase, always just before the closing cha
 \--
 
 
-
-
-
 Direct HTML
 ===========
 
@@ -505,8 +472,6 @@ This <strong class=info>is strong</strong> text.
 *Note: note that Texy adjusts the notation of attributes and tags to be valid (even for XHTML output). It also pays attention to the **well-formed notation**!*
 
 *Note: Deciding which tags and which attributes can be used in the text is fully user configurable. This demonstrates one example from the distribution.*
-
-
 
 
 Lists
@@ -531,7 +496,6 @@ Bulleted lists are written using `*`, `+` or `-`. It must be written at the very
 -   Green
 -   Blue
 \--
-
 
 
 Numbered Lists
@@ -594,7 +558,6 @@ III)  Tomorrow
 \--
 
 
-
 Nested Lists
 ------------
 
@@ -629,7 +592,6 @@ c)  Parish
 \--
 
 
-
 Definition List
 ---------------
 
@@ -655,7 +617,7 @@ Wild Bill concert:
 \--
 
 
-With modifiers
+With Modifiers
 --------------
 
 The modifier that affects the entire list is listed in the line before it. Others (classic) at the end of the line:
@@ -675,8 +637,6 @@ triangl:   .{color:blue}
     - untuned percussion musical instrument
     - tringulation tower
 \--
-
-
 
 
 Modifiers .[#modifier]
@@ -716,10 +676,6 @@ Centered with a modifier  .<>
 
 Colored by a modifier .{color:blue; lang: cs}
 \--
-
-
-
-
 
 
 Typography .[#typography]
@@ -765,6 +721,7 @@ unbreakable spaces for telephone numbers +420&nbsp;776&nbsp;552&nbsp;046
 *Note: Replacements are usually governed by other rules that determine when
 symbol replace and when not. For example, the arrow `->` cannot be at the end of a line, etc. So don't be surprised if in some cases Texy doesn't make the substitution.*
 
+
 Abbreviations, Acronyms
 -----------------------
 
@@ -797,10 +754,6 @@ more information at www.texy.info and also ...
 \--
 
 
-
-
-
-
 Long Words Hyphenation
 ======================
 
@@ -815,11 +768,6 @@ nejneobhospoda&shy;řovávatelnější&shy;mi</p
 \--
 
 *Note: the word length limit is optional*
-
-
-
-
-
 
 
 Tables .[#table]
@@ -885,7 +833,6 @@ Notice the double `||`:
 | Name                  || Age
 |----------------------------
 | Jesus      | Christ    | 33
-
 
 
 Merging Rows

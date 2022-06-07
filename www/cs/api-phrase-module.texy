@@ -8,6 +8,7 @@ $texy->allowed['phrase/strong'] = false;
 ...
 \--
 
+
 Konfigurace
 -----------
 

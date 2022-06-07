@@ -53,8 +53,6 @@ Lorem ipsum dolor sit amet.
 \--
 
 
-
-
 Заголовки
 =========
 
@@ -63,6 +61,7 @@ Lorem ipsum dolor sit amet.
 /--code texy
 Main title
 **********
+
 
 Subtitle
 ========
@@ -84,12 +83,10 @@ Subtitle
 Main title
 **********
 
+
 Subtitle
 ========
 \--
-
-
-
 
 
 Горизонтальная линия
@@ -97,16 +94,13 @@ Subtitle
 
 В Texy используется четыре способа:
 
+
 /--code texy
 ------------
 
 ********
 
 \--
-
-
-
-
 
 
 Код
@@ -143,8 +137,6 @@ Subtitle
 \--
 
 
-
-
 Выключение Texy
 ===============
 
@@ -159,10 +151,6 @@ Subtitle
     <em>test</em>: **this is not strong**
   \---
 \--
-
-
-
-
 
 
 Div-блоки
@@ -218,9 +206,6 @@ Div-блоки
 \--
 
 
-
-
-
 Цитаты
 ======
 
@@ -264,8 +249,6 @@ Div-блоки
 \--
 
 
-
-
 Ссылки
 ======
 
@@ -284,7 +267,6 @@ Do you know "Nette":http://nette.org?
 
 "Write me":me@example.com
 \--
-
 
 
 Предопределенные ссылки
@@ -307,10 +289,6 @@ Do you know "Nette":http://nette.org?
 
  Look at [this site | nette]
 \--
-
-
-
-
 
 
 Изображения
@@ -379,7 +357,6 @@ Do you know "Nette":http://nette.org?
 \--
 
 
-
 Изображения, использующие предопределенные ссылки
 -------------------------------------------------
 
@@ -405,10 +382,6 @@ alt="my girl" /> !
 /-- texysource .[html]
 [* image.gif *] *** This is *description* under image
 \--
-
-
-
-
 
 
 Phrases
@@ -457,7 +430,6 @@ Cite: As ~~Frank Borland~~ said, ...
 \--
 
 
-
 With modifiers
 --------------
 
@@ -475,9 +447,6 @@ With modifiers
 \--
 
 
-
-
-
 Direct HTML tags
 ================
 
@@ -490,10 +459,6 @@ This <strong class=info>is strong</strong> text.
 This <strong class="info">is strong</strong> text.
 <br /> This is not.
 \--
-
-
-
-
 
 
 Lists
@@ -520,7 +485,6 @@ Lists
 -   Green
 -   Blue
 \--
-
 
 
 Ordered
@@ -598,7 +562,6 @@ III)  Tomorrow
 \--
 
 
-
 Nested lists
 ------------
 
@@ -631,7 +594,6 @@ c)  Parish
       2)  McHale
       3)  Parish
 \--
-
 
 
 Definition list
@@ -685,8 +647,6 @@ PHP:    .{color:blue}
 \--
 
 
-
-
 Modifiers
 =========
 
@@ -719,10 +679,6 @@ Another example .{color:blue; lang: cs}
 
 <p style="color:blue" lang="cs">Another example</p>
 \--
-
-
-
-
 
 
 Quick-corrects .[#quickcorrect]
@@ -779,6 +735,7 @@ ned>litelnc mezery u&nbsp;telefonních čísel +420&nbsp;776&nbsp;552&nbsp;046
 *Poznámka: Nahrazování se obvykle tídí dalšími pravidly, kterc určují, kdy
 symbol nahradit a kdy ne. Naptíklad šipka `->` nemůže být na konci tádku atd. Proto nebuďte ptekvapeni, když v n>kterých ptípadech Texy náhradu neprovede. Pokud to považujete za chybu, dejte mi v>d>t.*
 
+
 Zkratky, akronymy .[#acronym]
 -----------------------------
 
@@ -813,10 +770,6 @@ další informace na www.texy.info a takc ...
 \--
 
 
-
-
-
-
 Rozd>lení velmi dlouhých slov .[#longwords]
 ===========================================
 
@@ -833,11 +786,6 @@ nejneobhospoda&shy;továvateln>jší&shy;mi</p
 *Poznámka: limit dclky slova je volitelný*
 
 *Poznámka: současnc prohlížeče na jádru Gecko (Mozilla, Firefox) jsou k naznačencmu d>lení slepí. Doufám, že vývojáti tento nedostatek brzy odstraní. Nebo zkuste [tohle | https://forum.texy.info/viewtopic.php?id=36]*
-
-
-
-
-
 
 
 Tabulky .[#table]
@@ -903,7 +851,6 @@ všimn>te si zdvojencho ||
 | Name                  || Age
 |----------------------------
 | Jesus      | Christ    | 33
-
 
 
 Sloučení tádků

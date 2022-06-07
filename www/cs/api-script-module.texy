@@ -7,6 +7,7 @@ Má na starosti volání uživatelských funkcí a vkládání externích dat. M
 $texy->allowed['script'] = false;
 \--
 
+
 Konfigurace
 -----------
 
@@ -14,6 +15,7 @@ Konfigurace
 | proměnná | typ | výchozí | popis |
 |----------------
 | $separator  | string | `';'`  | oddělovat argumentů
+
 
 Příklady
 --------

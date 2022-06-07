@@ -7,6 +7,7 @@ Má na starosti tabulky. Modul vypneme zakázáním syntaxe `table`:
 $texy->allowed['table'] = false;
 \--
 
+
 Konfigurace
 -----------
 

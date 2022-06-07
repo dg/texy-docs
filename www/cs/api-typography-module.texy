@@ -7,6 +7,7 @@ Má na starosti typografické úpravy výsledného textu. Modul vypneme zakázá
 $texy->allowed['typography'] = false;
 \--
 
+
 Konfigurace
 -----------
 

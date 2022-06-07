@@ -6,6 +6,7 @@ WYSIWYG((What You See is What You Get)) editor zobrazuje dokument během editace
 
 Tento druh editorů zažil v oblasti správy internetového obsahu skutečný boom. Kdo by také odolal jejich vizuálně atraktivnímu prostředí a myšoidnímu ovládání. Díky programátorům "šikovných komponent .[about](htmlArea, FCKeditor nebo tinyRTE)" se jejich implementace stala hračkou a dnes je nabízí každý CMS((Content Management Systém = Systém na správu obsahu)). V praxi se však ukazuje, jak jsou jejich **přednosti jen zdánlivé**.
 
+
 WYSIWYG se pro web nehodí
 -------------------------
 

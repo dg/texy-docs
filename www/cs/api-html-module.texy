@@ -11,6 +11,7 @@ $texy->allowed['html/tag'] = false;
 $texy->allowed['html/comment'] = false;
 \--
 
+
 Konfigurace
 -----------
 
